@@ -1,4 +1,6 @@
-# SSO Pathfinder Knowledge Base
+NEED TO FIX LINKS HERE
+
+# SSO Pathfinder Knowledge Base 
 >If you are intending to use the Pathfinder SSO service in order to provide authentication for your application, the SSO Pathfinder Knowledge Base is for you. You are in the right place.
 
 * [WHY PATHFINDER SSO?](https://github.com/bcgov/ocp-sso/wiki#why-pathfinder-sso)
