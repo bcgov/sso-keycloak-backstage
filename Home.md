@@ -42,7 +42,7 @@ It is totally possible for your application to integrate with any or all of the 
 - **OIDC protocol.** Where certain identity providers (BCeID in particular) support SAML protocol when used directly, Pathfinder SSO brokers the SAML connection and lets you use OIDC instead. OIDC is more common and simpler to set up in modern programming stacks.
 - **Session Management.** Some identity providers don't offer advanced session management capabilities.
 
-- **High Availability Requirements.** The Pathfinder SSO service is working to a formal published service level agreements (see [BC Government SSO Service Definition](https://developer.gov.bc.ca/BC-Government-SSO-Service-Definition)). This service is available 24/7 with questions and answers addressed during business hours only. [Uptime Robot Monitoring](https://stats.uptimerobot.com/m8VZBU5QBW)
+- **High Availability Requirements.** The Pathfinder SSO service is working to a formal published service level agreements (see [BC Government SSO Service Definition](https://developer.gov.bc.ca/BC-Government-SSO-Service-Definition)). This service is available 24/7 with questions and answers addressed during business hours only. [Uptime Monitoring](https://uptime.com/s/bcgov-sso)
 
 
 ### Why Not Pathfinder SSO?
