@@ -1,4 +1,4 @@
-# Getting Started NEED TO FIX LINKS HERE
+# Getting Started
 
 - [Home](https://github.com/bcgov/sso-keycloak/wiki)
 - [SSO Onboarding](https://github.com/bcgov/sso-keycloak/wiki/SSO-Onboarding)
@@ -11,7 +11,7 @@
 - [Developer Guide](https://github.com/bcgov/sso-requests/blob/dev/docs/developer-guide.md)
 - [Pathfinder SSO Uptime](https://uptime.com/s/bcgov-sso)
 
-# Request links NEED TO FIX LINKS HERE
+# Request links
 - [Pathfinder SSO Generic Request](https://github.com/BCDevOps/devops-requests/issues/new?assignees=jlangy%2C+junminahn%2C+arcshiftsolutions%2C+zsamji%2C+ConradBoydElliottGustafson&labels=sso-client-q%26a%2C+pending%2C+sso%2C+standard+realm%2C+configuration&template=keycloak_configuration_change.md&title=) To make a configuration change to an existing Pathfinder SSO configuration or to ask for help 
 - [Request for delete a Pathfinder SSO Realm](https://github.com/BCDevOps/devops-requests/issues/new?assignees=jlangy%2C+junminahn%2C+arcshiftsolutions%2C+zsamji%2C+ConradBoydElliottGustafson&labels=keycloak-realm%2C+pending%2C+sso&template=keycloak_realm_removal.md&title=)-To delete a set of Pathfinder SSO Realms 
 - [Request for an Pathfinder SSO Client in a standard realm](https://bcgov.github.io/sso-requests/) - To create a set of Pathfinder SSO clients (in KeyCloak DEV, TEST, PROD) 
