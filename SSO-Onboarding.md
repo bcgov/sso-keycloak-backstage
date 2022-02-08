@@ -17,6 +17,6 @@ The Pathfinder SSO team will provision your DEV and TEST clients right away. You
 
 ## Start Using your OIDC Client Configuration
 
-Once you have your client details, you can configure your application to use the service for your application login. For helpful advice on integration see [Using Your SSO Client](https://github.com/bcgov/ocp-sso/wiki/Using-Your-SSO-Client) or **if you are eager**, check out our [keycloak example apps](https://github.com/bcgov/keycloak-example-apps)
+Once you have your client details, you can configure your application to use the service for your application login. For helpful advice on integration see [Using Your SSO Client](https://github.com/bcgov/sso-keycloak/wiki/Using-Your-SSO-Client) or **if you are eager**, check out our [keycloak example apps](https://github.com/bcgov/keycloak-example-apps)
 
 
