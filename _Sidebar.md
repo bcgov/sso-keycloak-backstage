@@ -1,13 +1,13 @@
 # Getting Started NEED TO FIX LINKS HERE
 
-- [Home](https://github.com/bcgov/ocp-sso/wiki)
-- [SSO Onboarding](https://github.com/bcgov/ocp-sso/wiki/SSO-Onboarding)
-- [Using Your SSO Client](https://github.com/bcgov/ocp-sso/wiki/Using-Your-SSO-Client)
-- [What is Keycloak @ BC Government](https://github.com/bcgov/ocp-sso/wiki/What-is-Keycloak-and-how-it's-used-@-BC-Gov%3F)
-- [BC Services Card Integration](https://github.com/bcgov/ocp-sso/wiki/BC-Service-Card-Integration)
-- [Identity Provider Attribute Mapping](https://github.com/bcgov/ocp-sso/wiki/Identity-Provider-Attribute-Mapping)
-- [Handling Authorization](https://github.com/bcgov/ocp-sso/wiki/Handling-Authorization)
-- [Useful References](https://github.com/bcgov/ocp-sso/wiki/Useful-References)
+- [Home](https://github.com/bcgov/sso-keycloak/wiki)
+- [SSO Onboarding](https://github.com/bcgov/sso-keycloak/wiki/SSO-Onboarding)
+- [Using Your SSO Client](https://github.com/bcgov/sso-keycloak/wiki/Using-Your-SSO-Client)
+- [What is Keycloak @ BC Government](https://github.com/bcgov/sso-keycloak/wiki/What-is-Keycloak-and-how-it's-used-@-BC-Gov%3F)
+- [BC Services Card Integration](https://github.com/bcgov/sso-keycloak/wiki/BC-Service-Card-Integration)
+- [Identity Provider Attribute Mapping](https://github.com/bcgov/sso-keycloak/wiki/Identity-Provider-Attribute-Mapping)
+- [Handling Authorization](https://github.com/bcgov/sso-keycloak/wiki/Handling-Authorization)
+- [Useful References](https://github.com/bcgov/sso-keycloak/wiki/Useful-References)
 - [Developer Guide](https://github.com/bcgov/sso-requests/blob/dev/docs/developer-guide.md)
 - [Pathfinder SSO Uptime](https://uptime.com/s/bcgov-sso)
 
@@ -19,5 +19,5 @@
 
 [![Semantic description of image](https://user-images.githubusercontent.com/87393930/133819035-4d0444b7-f962-4370-93b5-ac6201a05d0f.png)][2]
 
-[2]:https://github.com/bcgov/ocp-sso/wiki/Additional-Help
+[2]:https://github.com/bcgov/sso-keycloak/wiki/Additional-Help
 
