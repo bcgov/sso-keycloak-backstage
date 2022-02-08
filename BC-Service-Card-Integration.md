@@ -9,12 +9,12 @@ The IDIM team that manages BCSC integration is responsible for safeguarding the 
 ### Options for Teams with BCSC Requirements
 
 <details>
-<summary><b>Join an Existing Dedicated Realm on the OCP-SSO server</b></summary>
+<summary><b>Join an Existing Dedicated Realm on the SSO-KEYCLOAK(formerly OCP-SSO) server</b></summary>
 <br>
 
 With approval from IDIM, it is possible to join an existing realm that shares the same security context as your application and already has BCSC set up. This generally means that the existing clients are all from the same ministry or sector and have the same requirements for personal information through the login process.
 
-There are very few instances of this pattern on OCP-SSO at this time, but it is an option that is possible with the help and approval of IDIM. In the future, a realm per sector may be an architectural pattern that emerges, but at this time on Pathfinder SSO it isn't common so there will be some discovery required around governance models that will need to be worked out.
+There are very few instances of this pattern on SSO-KEYCLOAK(formerly OCP-SSO) at this time, but it is an option that is possible with the help and approval of IDIM. In the future, a realm per sector may be an architectural pattern that emerges, but at this time on Pathfinder SSO it isn't common so there will be some discovery required around governance models that will need to be worked out.
 
 Be that as it may, if there is a closely related project in your ministry or sector that you think would be a candidate for sharing a BCSC integration, you may wish to start the conversation with IDIM and see if it makes sense for your situation.
 </details>
