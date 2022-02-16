@@ -158,7 +158,7 @@ It gives you `OpenID Provider Metadata` required for the OpenID connect configra
 
 #### Specifying an IDP to bypass the Keycloak login page
 
-If there is more than one IDP in the realm, the Keycloak server directs your users into a login page to let them choose the IDP that they want to authenticate with. It is possible to skip the login page or override the default IDP in Keycloak by passing the optional query param" kc_idp_hint".
+If there is more than one IDP in the realm, the Keycloak server directs your users into a login page to let them choose the IDP that they want to authenticate with. It is possible to skip the login page or override the default IDP in Keycloak by passing the optional query param" kc_idp_hint". [List of kc_idp_hints here](https://github.com/bcgov/sso-keycloak/wiki/Using-Your-SSO-Client#do-skip-the-keycloak-login-page)
 
 - If using an adapter, there is an option for providing `idpHint`, and
 - if not, please specify it in the `Authorization URL` in your code or configuration, i.e. `http://localhost:8080/auth?kc_idp_hint=<idp_name>`
