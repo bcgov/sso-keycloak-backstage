@@ -6,8 +6,6 @@ Attribute mapping for IDIR and BCeID:
 | samaccountname  | username        | username                          |
 | mail            | email           | email                             |
 | displayName     | displayName     | displayName                       |
-| givenName       | firstName       | firstName                         |
-| sn              | lastName        | lastName                          |
 
 Additional Attributes available with standard Business BCeID
 
