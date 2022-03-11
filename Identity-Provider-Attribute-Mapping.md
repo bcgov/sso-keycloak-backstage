@@ -1,11 +1,11 @@
 Attribute mapping for IDIR and BCeID:
 
-| LDAP (IDIR-only)| SAML            | KeyCloak                          |
-|---              |---              |---                                |
-| bcgovGUID       | useridentifier  | `idir_userid` or `bceid_userid`   |
-| samaccountname  | username        | username                          |
-| mail            | email           | email                             |
-| displayName     | displayName     | displayName                       |
+| KeyCloak                          |
+|---                                |
+| `idir_userid` or `bceid_userid`   |
+| username                          |
+| email                             |
+| displayName                       |
 
 Additional Attributes available with IDIR only
 
