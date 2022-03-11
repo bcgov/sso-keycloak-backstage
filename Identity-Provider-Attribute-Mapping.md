@@ -7,6 +7,11 @@ Attribute mapping for IDIR and BCeID:
 | mail            | email           | email                             |
 | displayName     | displayName     | displayName                       |
 
+Additional Attributes available with IDIR only
+
+| givenName       | firstName       | firstName                         |
+| sn              | lastName        | lastName                          |
+
 Additional Attributes available with standard Business BCeID
 
 | KeyCloak                          |
