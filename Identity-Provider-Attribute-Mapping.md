@@ -9,8 +9,10 @@ Attribute mapping for IDIR and BCeID:
 
 Additional Attributes available with IDIR only
 
-| givenName       | firstName       | firstName                         |
-| sn              | lastName        | lastName                          |
+| KeyCloak                          |
+|---                                |
+| firstName                         |
+| lastName                          |
 
 Additional Attributes available with standard Business BCeID
 
