@@ -23,5 +23,4 @@ Additional Attributes available with standard Business BCeID
 
 
 * User's `First Name` and `Last Name` are NOT available for BCeID users.
-* Developers should ONLY use the attributes in the `KeyCloak` column.
 * Any other attribute can be fetched by the app itself using [IDIM Web Services](https://sminfo.gov.bc.ca/)
