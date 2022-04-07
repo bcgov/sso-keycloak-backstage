@@ -8,7 +8,6 @@
 - [Identity Provider Attribute Mapping](https://github.com/bcgov/sso-keycloak/wiki/Identity-Provider-Attribute-Mapping)
 - [Handling Authorization](https://github.com/bcgov/sso-keycloak/wiki/Handling-Authorization)
 - [Useful References](https://github.com/bcgov/sso-keycloak/wiki/Useful-References)
-- [Developer Guide](https://github.com/bcgov/sso-requests/blob/dev/docs/developer-guide.md)
 - [Pathfinder SSO Uptime](https://uptime.com/s/bcgov-sso)
 
 # Request links
