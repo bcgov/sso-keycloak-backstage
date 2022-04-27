@@ -23,4 +23,4 @@ A couple of notes
 
 1. Integration Team (member or admin) can see all users assigned to role
 
-[Here's a video if that helpss](https://user-images.githubusercontent.com/56739669/165629842-7f303725-fd0a-45bf-ab79-3751dbd1ca8a.mp4)
+[Here's a video if that helps](https://user-images.githubusercontent.com/56739669/165629842-7f303725-fd0a-45bf-ab79-3751dbd1ca8a.mp4)
