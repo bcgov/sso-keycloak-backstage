@@ -6,7 +6,7 @@ You've asked and we've listened, our latest **MVP** has the ability for you to c
 1. First, create your integration
 1. Once your integration status becomes “Completed”, you can “Create a New Role” for each of your environments, under Role Management
 1. Next, you can add users to your various roles, under Assign Users to Roles
-1. Finally, configure our app to make use of these roles that are passed via the access token/payload
+1. Finally, configure your app to make use of these roles that are passed via the access token/payload
 ### A couple of notes:
 1. A Role can **only** be created once the integration status is “completed
 1. You have the ability create different roles for each of the different environment(s) in your integration
