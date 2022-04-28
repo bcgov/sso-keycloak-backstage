@@ -8,7 +8,7 @@ You've asked and we've listened, our latest **MVP** has the ability for you to c
 1. Next, you can add users to your various roles, under Assign Users to Roles
 1. Finally, configure your app to make use of these roles that are passed via the access token/payload
 ### A couple of notes:
-1. A Role can **only** be created once the integration status is “completed
+1. A Role can **only** be created once the integration status is “completed"
 1. You have the ability create different roles for each of the different environment(s) in your integration
 1. A Role list is auto loaded if the environment has more than 20 roles (I’m not sure the user needs to know this?)
 1. When you select a role, the right hand side will show users assigned to that role
