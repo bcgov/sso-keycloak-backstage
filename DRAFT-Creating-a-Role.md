@@ -12,9 +12,7 @@ You've asked and we've listened, our latest **MVP** has the ability for you to c
 1. Once your integration is in "completed" status, you will have your json details AND you have created at least one Role
 1. Make sure you assign atleast one person to this role under the "Assign Users to Role" section
 1. Log in to your Application
-1. Look for the the Role you created in the client_role attribute
-![](https://user-images.githubusercontent.com/56739669/166322299-9791a90f-5502-4273-b1b2-a1eecfd9bcbb.png)
-
+1. Look for the the Role you created in the client_role attribute  <img src="https://user-images.githubusercontent.com/56739669/166322299-9791a90f-5502-4273-b1b2-a1eecfd9bcbb.png" width="100" height="100">
 1. View this [video at 2:10](https://user-images.githubusercontent.com/56739669/165629842-7f303725-fd0a-45bf-ab79-3751dbd1ca8a.mp4)
 
 
