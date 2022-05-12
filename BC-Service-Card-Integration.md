@@ -2,7 +2,7 @@
 
 *BC Services Card provides an Open ID Connect authentication server. Integration to this service is not available in the *standard* realms.*
 
-The IDIM team that manages BCSC integration is responsible for safeguarding the personal information that is available in a login context. They have a business requirement that integrations to BCSC cannot be shared without IDIM approval. The standard realm is a shared environment -- if we enabled a BCSC integration in a standard realm it would be technically available to all the clients that are configured to use that realm, thus breaking the security model. test
+The IDIM team that manages BCSC integration is responsible for safeguarding the personal information that is available in a login context. They have a business requirement that integrations to BCSC cannot be shared without IDIM approval. The standard realm is a shared environment -- if we enabled a BCSC integration in a standard realm it would be technically available to all the clients that are configured to use that realm, thus breaking the security model.
 
 ---------------------------------
 
