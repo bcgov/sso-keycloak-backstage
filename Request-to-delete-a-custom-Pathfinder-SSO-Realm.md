@@ -6,9 +6,9 @@ We can't process realm requests except from individuals in these roles.
 Does the Admin User have an IDIR account?
 We use IDIR authentication for Realm Admin Users, so make sure there's a valid IDIR for the assigned realm admin.
 
-# Step 2
+# Step 1
 Find us on [rocketchat](https://chat.developer.gov.bc.ca/channel/sso)  or [create a discussion with us](https://github.com/bcgov/sso-keycloak/discussions/new?category=delete-custom-realm) and include the following information:  
 Project Name:
 Keycloak realm
-IDIR account name:
+Admin user's Business Email Address:
 Please note that we will only start processing your request when the you've reached out us. 
