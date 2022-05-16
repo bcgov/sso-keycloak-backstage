@@ -11,10 +11,10 @@
 - [Pathfinder SSO Uptime](https://uptime.com/s/bcgov-sso)
 
 # Request links
-- [Pathfinder SSO Generic Request](https://github.com/bcgov/sso-keycloak/issues/new?assignees=thegentlemanphysicist%2C+junminahn%2C+arcshiftsolutions%2C+zsamji&labels=sso-client-q%26a%2C+pending%2C+sso%2C+standard+realm%2C+configuration&template=keycloak_configuration_change.md&title=) To make a configuration change to an existing Pathfinder SSO configuration or to ask for help 
-- [Request for delete a Pathfinder SSO Realm](https://github.com/bcgov/sso-keycloak/issues/new?assignees=thegentlemanphysicist%2C+junminahn%2C+arcshiftsolutions%2C+zsamji&labels=sso-delete-realm%2C+pending%2C+sso&template=keycloak_realm_removal.md&title=)-To delete a set of Pathfinder SSO Realms 
+- [Pathfinder SSO Generic Request](https://github.com/bcgov/sso-keycloak/discussions/new?category=q-a) To make a configuration change to an existing Pathfinder SSO configuration or to ask for help 
+- [Request to delete a set of Pathfinder SSO Realms ](https://github.com/bcgov/sso-keycloak/wiki/Request-to-delete-a-custom-Pathfinder-SSO-Realm)
 - [Request for an Pathfinder SSO Client in a standard realm](https://bcgov.github.io/sso-requests/) - To create a set of Pathfinder SSO clients (in KeyCloak DEV, TEST, PROD) 
-- [Request to remove a duplicate user from Keycloak](https://github.com/bcgov/sso-keycloak/issues/new?assignees=thegentlemanphysicist%2C+junminahn%2C+arcshiftsolutions%2C+zsamji&labels=sso-delete-user%2C+sso&template=keycloak_user_removal_request.md&title=)-To remove an IDIR or BCeID user when username update causes conflicts
+- [Request to remove a duplicate user from Keycloak](https://github.com/bcgov/sso-keycloak/wiki/Request-to-remove-a-duplicate-user-from-Keycloak)-To remove an IDIR or BCeID user when username update causes conflicts
 
 [![Semantic description of image](https://user-images.githubusercontent.com/87393930/133819035-4d0444b7-f962-4370-93b5-ac6201a05d0f.png)][2]
 
