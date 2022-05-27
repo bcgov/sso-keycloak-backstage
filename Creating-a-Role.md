@@ -1,7 +1,7 @@
 
 You've asked and we've listened, our latest **MVP** has the ability for you to create roles for your SSO integration.
 
-[View a quick video of how to create Roles](tbd), or continue reading the instructions below.
+[View a quick video of how to create Roles](https://user-images.githubusercontent.com/56739669/167518486-89f03e3c-f7e4-4788-89d8-25729e107406.mp4), or continue reading the instructions below.
 
 ### How to create a Role:
 1. First, create your integration
@@ -13,7 +13,7 @@ You've asked and we've listened, our latest **MVP** has the ability for you to c
 1. Once your integration is in "completed" status, you will have your json details AND you have created at least one Role
 1. Make sure you assign at least one person to this role under the "Assign Users to Role" section
 1. Log in to your Application
-1. Look for the the Role you created in the client_role attribute  View this [video at 2:00](tbd)
+1. Look for the the Role you created in the client_role attribute  View this [video at 2:00](https://user-images.githubusercontent.com/56739669/167518486-89f03e3c-f7e4-4788-89d8-25729e107406.mp4)
 
 
 ### A couple of notes:
