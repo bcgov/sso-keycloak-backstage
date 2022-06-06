@@ -1,1 +1,1 @@
-TBD
+[learn about creating a role via our common hosted single sign on app](https://github.com/bcgov/sso-keycloak/wiki/Creating-a-Role)
