@@ -206,6 +206,8 @@ In KeyCloak, if the realm that contains your client has more than one IDP config
 - BCeID Basic or Business: kc_idp_hint=bceid-basic-and-business
 - GitHub: kc_idp_hint=github (Available in DEV and TEST)
 
+We do have a work around for those of you who ABSOLUTELY need the keycloak login page [here](https://github.com/bcgov/sso-keycloak/wiki/Recommend-Skipping-the-Keycloak-Login-Page-and-if-you-ABSOLUTELY-need-it), please talk to us about this. 
+
 ### Do Validate the IDP in the JWT
 
 Because there are multiple IDPs available to your client in the standard realm, if your application has business logic that specifies a particular login method, you have to enforce that. For example, if your application requires BCeID to authenticate, you have to make sure that the user didn't somehow log in with IDIR instead. Your client has a mapper configured to provide the alias of the IDP that was used to log in. The name of the claim is 'identity_provider' and the possible aliases are the same as the ones that are used for the kc_idp_hint query parameter (see above).
