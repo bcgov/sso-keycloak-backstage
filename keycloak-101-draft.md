@@ -14,6 +14,10 @@ when you create a client in keycloak, you obtain the json file from the installa
 
 
 ## alternatives to docker
+
+https://lippertmarkus.com/2021/09/04/containers-without-docker-desktop/
+
+
 go to the nextjs folder
 https://nextjs.org/docs/getting-started
 
