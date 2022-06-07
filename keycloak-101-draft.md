@@ -11,3 +11,10 @@ when you create a client in keycloak, you obtain the json file from the installa
 ![image](https://user-images.githubusercontent.com/56739669/172299300-fbd69c5d-4212-4bf1-a96e-1ba3456fc71b.png)
 7.5 
 ![image](https://user-images.githubusercontent.com/56739669/172299426-08bebea9-f4a1-4bdd-a3c3-d530c663245c.png)
+
+
+## alternatives to docker
+go to the nextjs folder
+https://nextjs.org/docs/getting-started
+
+npx create-next-app@latest
