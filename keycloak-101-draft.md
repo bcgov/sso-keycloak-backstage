@@ -14,8 +14,10 @@ when you create a client in keycloak, you obtain the json file from the installa
 
 
 ## alternatives to docker
-
-https://lippertmarkus.com/2021/09/04/containers-without-docker-desktop/
+1. make sure you have no docker on your windows box;
+2. run visual studio as admin
+3. take the code snppets https://lippertmarkus.com/2021/09/04/containers-without-docker-desktop/
+-- go to the next js folder and run Start-Service docker
 
 
 go to the nextjs folder
