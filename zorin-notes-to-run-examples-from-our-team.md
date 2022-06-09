@@ -30,8 +30,9 @@ docker container stop <container name>
 2. Use the gihub repo for public-nextjs
 Notes: 
 a. ensure you have the latest version of node and express pulled in
-**b. modify backend/config.js to use port 3000**
-c. npm run dev 
+**b. modify backend/config.js to use port 3000
+c. include the node modules**
+d. npm run dev 
 
 # json installation file screenshots of custom keycloak realm
 when you create a client in keycloak, you obtain the json file from the installation tab of client
