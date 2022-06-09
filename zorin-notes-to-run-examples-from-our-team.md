@@ -13,16 +13,32 @@ docker infor
 docker image ls
 docker container ls
 docker container stop <container name>
-
-
+service docker start
+if you get redirect issue, look at the very powerful url via https://www.urldecoder.org/ AND make sure your redirects match
 ## urls/steps
 1. review the readme https://github.com/bcgov/keycloak-example-apps/blob/dev/README.md
 2. clone github repo to your local https://github.com/bcgov/keycloak-example-apps
 3.  create CSS Integration OR create a client in your custom keycloak realm !!!make sure  http://localhost:3000  is valid redirect uri!!!
 
+# Edits for Confidential-express
+1. need to have the keycloak json file with the **secret**
+{
+    "confidential-port": 0,
+    "auth-server-url": "some text",
+    "realm": "some text",
+    "ssl-required": "some text",
+    "resource": "someteext",
+    "credentials": {
+      "secret": "some secret"
+    }
+  }
 
-# Method 2 Nextjs
+# Edits for public-fastAPI
+1. make sure the docker-compose file has the right end point 
+    GOLD: - WELL_KNOWN_ENDPOINT=https://dev.loginproxy.gov.bc.ca/auth/realms/standard/.well-known/openid-configuration
+      SILVER - WELL_KNOWN_ENDPOINT=https://dev.oidc.gov.bc.ca/auth/realms/onestopauth/.well-known/openid-configuration
 
+# Method 2 next js
 1. install nextjs so it can run in your ide
 * https://nextjs.org/docs/getting-started
 * npx create-next-app@latest
