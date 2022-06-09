@@ -1,4 +1,4 @@
-# Method one docker
+# Method one docker ( avoid docker desktop)
 
 ## Pre-req
 1. Either run docker through your linux or wsl (windows subsystem for linux) https://code.visualstudio.com/docs/remote/wsl 
