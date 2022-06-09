@@ -122,19 +122,34 @@ After having your `Installation JSON`, you can setup your application quickly us
 #### Connecting without an adapter
 
 If you are not using an adapter, you will require some additional information to set up your OpenID connection. Required information
-can be found behind the publicly accessible `provider configuration endpoint` for your environment. These are:
+can be found behind the publicly accessible `provider configuration endpoint` for your environment. 
 
-- **Dev**: `https://dev.oidc.gov.bc.ca/auth/realms/<realm_name>/.well-known/openid-configuration`
-- **Test**: `https://test.oidc.gov.bc.ca/auth/realms/<realm_name>/.well-known/openid-configuration`
-- **Prod**: `https://oidc.gov.bc.ca/auth/realms/<realm_name>/.well-known/openid-configuration`
+Based on our integration with us, you will either have your integration connected to our Silver (soon to be deprecated) offering or our Gold (the place to be) offering. Reach out to us if you have questions.
 
-Where <realm_name> needs to be replaced with the standard realm you are using, one of:
+##### Silver Service
+
+These are:
+
+- **Dev**: https://dev.oidc.gov.bc.ca/auth/realms/< realm_name >/.well-known/openid-configuration
+- **Test**: https://test.oidc.gov.bc.ca/auth/realms/< realm_name >/.well-known/openid-configuration
+- **Prod**: https://oidc.gov.bc.ca/auth/realms/< realm_name >/.well-known/openid-configuration
+
+Where < realm_name > needs to be replaced with the standard realm you are using, one of:
 
 - onestopauth (For IDIR only)
 - onestopauth-basic (For IDIR and BCeID basic)
 - onestopauth-business (For IDIR and BCeID business)
 - onestopauth-both (For IDIR and BCeID basic and business)
 
+##### Gold Service
+
+These are:
+
+- **Dev**: https://dev.loginproxy.gov.bc.ca/auth/realms/< realm_name >/.well-known/openid-configuration
+- **Test**: https://test.loginproxy.gov.bc.ca/auth/realms/< realm_name >/.well-known/openid-configuration
+- **Prod**: https://loginproxy.gov.bc.ca/auth/realms/< realm_name >/.well-known/openid-configuration
+
+##### OpenID Provider Metadata sample 
 It gives you `OpenID Provider Metadata` required for the OpenID connect configration:
 
 ```json
