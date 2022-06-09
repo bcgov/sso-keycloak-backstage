@@ -21,13 +21,17 @@ docker container stop <container name>
 3.  create CSS Integration OR create a client in your custom keycloak realm !!!make sure  http://localhost:3000  is valid redirect uri!!!
 
 
-# Method 2
+# Method 2 Nextjs
 
+1. install nextjs so it can run in your ide
+* https://nextjs.org/docs/getting-started
+* npx create-next-app@latest
 
-go to the nextjs folder
-https://nextjs.org/docs/getting-started
-
-npx create-next-app@latest
+2. Use the gihub repo for public-nextjs
+Notes: 
+a. ensure you have the latest version of node and express pulled in
+**b. modify backend/config.js to use port 3000**
+c. npm run dev 
 
 # json installation file screenshots of custom keycloak realm
 when you create a client in keycloak, you obtain the json file from the installation tab of client
