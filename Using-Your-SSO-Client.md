@@ -145,9 +145,9 @@ Where < realm_name > needs to be replaced with the standard realm you are using,
 
 These are:
 
-- **Dev**: https://dev.loginproxy.gov.bc.ca/auth/realms/< realm_name >/.well-known/openid-configuration
-- **Test**: https://test.loginproxy.gov.bc.ca/auth/realms/< realm_name >/.well-known/openid-configuration
-- **Prod**: https://loginproxy.gov.bc.ca/auth/realms/< realm_name >/.well-known/openid-configuration
+- **Dev**: https://dev.loginproxy.gov.bc.ca/auth/realms/standard/.well-known/openid-configuration
+- **Test**: https://test.loginproxy.gov.bc.ca/auth/realms/standard/.well-known/openid-configuration
+- **Prod**: https://loginproxy.gov.bc.ca/auth/realms/standard/.well-known/openid-configuration
 
 ##### OpenID Provider Metadata sample 
 It gives you `OpenID Provider Metadata` required for the OpenID connect configration:
