@@ -6,15 +6,18 @@
 
 
 side notes:
-running docker may require you to be in admin mode
-localhost/0.0.0. http://localhost:3000/
-WSL & Visual Studio ``` Remote-WSL: New Window```
-docker infor
-docker image ls
-docker container ls
-docker container stop <container name>
-service docker start
-if you get redirect issue, look at the very powerful url via https://www.urldecoder.org/ AND make sure your redirects match
+* running docker may require you to be in admin mode
+* localhost/0.0.0. http://localhost:3000/
+* WSL & Visual Studio ``` Remote-WSL: New Window```
+* docker infor
+* docker image ls
+* docker container ls
+* docker container stop <container name>
+* service docker start
+* if you get redirect issue, look at the very powerful url via https://www.urldecoder.org/ AND make sure your redirects match
+* docker-compose up vs docker-compose down
+
+
 ## urls/steps
 1. review the readme https://github.com/bcgov/keycloak-example-apps/blob/dev/README.md
 2. clone github repo to your local https://github.com/bcgov/keycloak-example-apps
