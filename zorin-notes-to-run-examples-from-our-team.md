@@ -37,6 +37,7 @@ side notes:
   }
 
 # Edits for public-fastAPI
+0. good candidate to decommission? -- repo was written to give a rough example of code rather than providing a comple app in terms of the time we had
 1. make sure the docker-compose file has the right end point 
     GOLD: - WELL_KNOWN_ENDPOINT=https://dev.loginproxy.gov.bc.ca/auth/realms/standard/.well-known/openid-configuration
       SILVER - WELL_KNOWN_ENDPOINT=https://dev.oidc.gov.bc.ca/auth/realms/onestopauth/.well-known/openid-configuration
