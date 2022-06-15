@@ -3,7 +3,7 @@
 - [Home](https://github.com/bcgov/sso-keycloak/wiki)
 - [SSO Onboarding](https://github.com/bcgov/sso-keycloak/wiki/SSO-Onboarding)
 - [Using Your SSO Client](https://github.com/bcgov/sso-keycloak/wiki/Using-Your-SSO-Client)
-- [What is Keycloak @ BC Government](https://github.com/bcgov/sso-keycloak/wiki/What-is-Keycloak-and-how-it's-used-@-BC-Gov%3F)
+- [What is Keycloak @ BC Government](https://github.com/bcgov/sso-keycloak/wiki/What-is-Keycloak-@-BC-Government%3F)
 - [BC Services Card Integration](https://github.com/bcgov/sso-keycloak/wiki/BC-Service-Card-Integration)
 - [Identity Provider Attribute Mapping](https://github.com/bcgov/sso-keycloak/wiki/Identity-Provider-Attribute-Mapping)
 - [Handling Authorization](https://github.com/bcgov/sso-keycloak/wiki/Handling-Authorization)
