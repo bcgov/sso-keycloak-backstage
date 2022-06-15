@@ -44,19 +44,15 @@ side notes:
 
 # Method 2 next js
 1. install nextjs so it can run in your ide
-* https://nextjs.org/docs/getting-started
-* npx create-next-app@latest
+a. https://nextjs.org/docs/getting-started
+b. npx create-next-app@latest
 
-2. Use the gihub repo for public-nextjs
+
+2. copy the for public-nextjs into the location of #1 (next-app)
 Notes: 
 a. ensure you have the latest version of node and express pulled in
-
-**
 b. modify backend/config.js to use port 3000
-
-c. include the node modules
-
-**
+c. include the node modules (likely will get an error message for it to help you include.
 d. npm run dev 
 
 # json installation file screenshots of custom keycloak realm
