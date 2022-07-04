@@ -8,14 +8,14 @@ The following has been created based on the structure from https://developer.okt
 In the [first installment of this OpenID Connect (OIDC) series](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-1), we looked at some OIDC basics, its history, and the various flow types, scopes, and tokens involved. In this post, we’ll dive into the mechanics of OIDC and see the various flows in action.
 
 The token(s) you get back from an OIDC flow and the contents of the /userinfo endpoint are a function of the flow type and scopes requested. 
-Your use case will determine which flow to use. Are you building a SPA or mobile app that needs to interact directly with the OpenID Provider (OP)? Do you have middleware, such as Spring Boot or Node.js Express that will interact with the OP? Below, we dig into some of the available flows and when it’s appropriate to use them.
+Your use case will determine which flow to use. Are you building a SPA or mobile app that needs to interact directly with the CSS App Integration (aka OpenID Provider) Do you have middleware, such as Spring Boot or Node.js Express that will interact with the CSS App Integration. Below, we dig into some of the available flows and when it’s appropriate to use them.
 
 **NEED TO CUSTOMIZE**
 [Authorization Code Flow](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-2#authorization-code-flow)
 
 The Authorization Code flow is covered in [Section 3.1 of the OIDC spec](http://openid.net/specs/openid-connect-core-1_0.html#CodeFlowAuth). The TL;DR is: a code is returned from the /authorization endpoint which can be exchanged for ID and access tokens using the /token endpoint.
 
-This is a suitable approach when you have a middleware client connected to an OIDC OP and don’t (necessarily) want tokens to ever come back to an end-user application, such as a browser. It also means the end-user application never needs to know a secret key.
+This is a suitable approach when you have a middleware client connected to an CSS App Integration and don’t (necessarily) want tokens to ever come back to an end-user application, such as a browser. It also means the end-user application never needs to know a secret key.
 
 Here’s an example of how this flow gets started using the CSS App:
 
