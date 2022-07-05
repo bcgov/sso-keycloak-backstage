@@ -19,10 +19,9 @@ This is a suitable approach when you have a middleware client connected to an CS
 
 Here’s an example of how this flow gets started using the CSS App:
 
-**INSERT VISUAL 1**
+![Using_the_OIDC_End_Points_from_the_CSS_app_JSON_Installation_file_](https://user-images.githubusercontent.com/56739669/177385349-cd67a231-609a-422b-a4db-3250ffccd9d3.png)
 
-
-**INSERT TABLE**
+<img width="600" alt="OIDC_table_definition" src="https://user-images.githubusercontent.com/56739669/177385353-0fc8f750-ef50-46cb-802e-968233c2e195.png">
 
 #### After you've logged in -- this may need to be customized....
 
