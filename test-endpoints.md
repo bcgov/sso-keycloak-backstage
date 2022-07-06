@@ -23,3 +23,9 @@ The token endpoint is used to obtain tokens. Tokens can either be obtained by ex
 For more details see the [Token Endpoint](http://openid.net/specs/openid-connect-core-1_0.html#TokenEndpoint) section in the OpenID Connect specification.
 
 Reference: https://wjw465150.gitbooks.io/keycloak-documentation/content/securing_apps/topics/oidc/oidc-generic.html
+
+
+# CSS well known end points and authorization end points
+https://github.com/bcgov/sso-keycloak/wiki/Using-Your-SSO-Client#gold-service
+
+https://github.com/bcgov/sso-keycloak/wiki/test-page
