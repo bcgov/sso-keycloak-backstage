@@ -1,0 +1,1 @@
+![](https://github.com/bcgov/sso-realm-registry/blob/dev/app/public/home-right.png)
