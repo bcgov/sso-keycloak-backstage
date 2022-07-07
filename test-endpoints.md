@@ -1,6 +1,6 @@
-# Endpoint Definitions
+# Endpoint Defined
 
-The most important **endpoint **to understand is the well-known configuration endpoint. It lists endpoints and other configuration options relevant to the OpenID Connect implementation in Keycloak. The endpoint is:
+The most important **endpoint** to understand is the well-known configuration endpoint. It lists endpoints and other configuration options relevant to the OpenID Connect implementation in Keycloak. The endpoint is:
 
 /realms/{realm-name}/.well-known/openid-configuration
 To obtain the full URL, add the base URL for Keycloak and replace {realm-name} with the name of your realm. For example:
