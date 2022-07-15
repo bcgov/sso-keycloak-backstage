@@ -24,7 +24,7 @@
 
 ## Why Pathfinder SSO?
 
-The Pathfinder SSO service (also known as "KeyCloak" or "RedHat SSO"). Provides a simple way for application development teams to set up login functionality for their app from approved identity providers over a standard, secure protocol.
+The Pathfinder SSO service (also known as "KeyCloak" or "RedHat SSO") provides a simple way for application development teams to set up login functionality for their app from approved identity providers over a standard, secure protocol.
 
 An "Identity Provider" is the _holder_ of the identity that is used to log in with. The Pathfinder SSO service is _NOT_ an identity provider. When a user of your application logs in, they will not be providing credentials to your application directly, or even to the Pathfinder SSO service. They will be logging in directly with the identity provider. That login event is then propagated back to your application in the form of a token that proves that they have logged in correctly.
 
