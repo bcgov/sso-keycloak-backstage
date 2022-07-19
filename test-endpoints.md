@@ -25,6 +25,6 @@ Reference: https://wjw465150.gitbooks.io/keycloak-documentation/content/securing
 
 
 # CSS well known end points and authorization end points
-https://github.com/bcgov/sso-keycloak/wiki/Using-Your-SSO-Client#gold-service
+https://github.com/bcgov/sso-keycloak/wiki/Using-Your-SSO-Client#connecting-without-an-adapter
 
 https://github.com/bcgov/sso-keycloak/wiki/test-page
