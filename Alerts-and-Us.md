@@ -1,4 +1,4 @@
-# Here's a Quick overview of our metrics on our acknowledge and response times:
+Here's an overview of our metrics on our acknowledge and response times:
 
 ## Priority 1 aka Critical Impact to Service -- no end users can log into their apps connected to keycloak
 Pathfinder Team commits to acknowledging issue within 15 -20 mins and resolving as quickly as possible
