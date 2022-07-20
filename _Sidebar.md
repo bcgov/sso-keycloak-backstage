@@ -8,7 +8,7 @@
 - [Identity Provider Attribute Mapping](https://github.com/bcgov/sso-keycloak/wiki/Identity-Provider-Attribute-Mapping)
 - [Handling Authorization](https://github.com/bcgov/sso-keycloak/wiki/Handling-Authorization)
 - [Useful References](https://github.com/bcgov/sso-keycloak/wiki/Useful-References)
-- [Pathfinder SSO Uptime](https://uptime.com/s/bcgov-sso)
+- [Pathfinder SSO Uptime](https://github.com/bcgov/sso-keycloak/wiki/Pathfinder-Uptime-Monitoring)
 
 # Request links
 - [Pathfinder SSO Generic Request](https://github.com/bcgov/sso-keycloak/discussions/new?category=q-a) To make a configuration change to an existing Pathfinder SSO configuration or to ask for help 
