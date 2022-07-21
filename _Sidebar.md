@@ -9,6 +9,7 @@
 - [Handling Authorization](https://github.com/bcgov/sso-keycloak/wiki/Handling-Authorization)
 - [Useful References](https://github.com/bcgov/sso-keycloak/wiki/Useful-References)
 - [Pathfinder SSO Uptime](https://github.com/bcgov/sso-keycloak/wiki/Pathfinder-Uptime-Monitoring)
+- [Gold Migration Q&A](https://github.com/bcgov/sso-keycloak/discussions/categories/gold-q-a)
 
 # Request links
 - [Pathfinder SSO Generic Request](https://github.com/bcgov/sso-keycloak/discussions/new?category=q-a) To make a configuration change to an existing Pathfinder SSO configuration or to ask for help 
