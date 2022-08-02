@@ -1,9 +1,10 @@
 <br>
-You will have a Pathfinder SSO client in each of the DEV, TEST and PROD servers. Assuming you have a DEV, TEST, and PROD environments for your application, this should give you the decoupling you need to set up each environment up with its own login context. For IDIR and GitHub, your users will use "real" credentials in all three environments. For BCeID, the DEV and TEST environments will point to the "TEST" BCeID context, so "real" BCeID credentials will not work there.
-If you want to point other instances of your application to your clients (such as ephemeral instances that are spun up for pull request validation or something), feel free to use DEV and TEST (but you will have to have valid redirect URIs configured for those instances).
+
 
 ## Table of Contents
-
+- [Environments and Accounts](#environments)
+  - [IDIR & GitHub Accounts](#idir-github-accounts)
+  - [BCeID Accounts](#bceid-accounts)
 - [Technical Details](#technical-details)
   - [OIDC Setup and Keycloak's Authentication Flow](#oidc-setup-and-keycloaks-authentication-flow)
   - [Confidential vs Private Client](#confidential-vs-private-client)
@@ -27,6 +28,33 @@ If you want to point other instances of your application to your clients (such a
 - [Do Validate the IDP in the JWT](#do-validate-the-idp-in-the-jwt)
 
 ---
+### Environments and Accounts
+
+You will have a Pathfinder SSO client in each of the DEV, TEST and PROD servers. Assuming you have a DEV, TEST, and PROD environments for your application, this should give you the decoupling you need to set up each environment up with its own login context. 
+
+##### IDIR & GitHub Accounts
+
+For IDIR and GitHub, your users will use "real" credentials in all three environments. 
+
+##### BCeID Accounts
+**With our SILVER Service** - please ensure you have BCeID accounts mapped to the correct BCeID environment listed below. For questions on test accounts, please reach out to our IDIM partners at idim.consulting@gov.bc.ca
+| SSO CSS APP SILVER        | BCeID Env           | Visual Clue  |
+| ------------- |:-------------:| -----:|
+| DEV     | BCeID TEST | ![image](https://user-images.githubusercontent.com/56739669/182436317-68624f41-3889-4127-9440-20d7ec09da48.png) |
+| TEST      | BCeID TEST       |   ![image](https://user-images.githubusercontent.com/56739669/182436317-68624f41-3889-4127-9440-20d7ec09da48.png) |
+| PROD | BCeID PROD      |    ![image](https://user-images.githubusercontent.com/56739669/182436489-5e66b419-d3ad-4f33-b38b-92b6db6dd467.png) |
+
+
+**With our GOLD Service** - please ensure you have BCeID accounts mapped to the correct BCeID environment listed below. For questions on test accounts, please reach out to our IDIM partners at idim.consulting@gov.bc.ca
+| SSO CSS APP SILVER        | BCeID Env           | Visual Clue  |
+| ------------- |:-------------:| -----:|
+| DEV     | BCeID DEV| ![image](https://user-images.githubusercontent.com/56739669/182436774-ec4f6853-9bb7-4ad7-bc2d-3422e3b8e1f3.png) |
+| TEST      | BCeID TEST       |   ![image](https://user-images.githubusercontent.com/56739669/182436317-68624f41-3889-4127-9440-20d7ec09da48.png) |
+| PROD | BCeID PROD      |    ![image](https://user-images.githubusercontent.com/56739669/182436489-5e66b419-d3ad-4f33-b38b-92b6db6dd467.png) |
+
+
+
+** Note : If you want to point other instances of your application to your clients (such as ephemeral instances that are spun up for pull request validation or something), feel free to use DEV and TEST (but you will have to have valid redirect URIs configured for those instances).
 
 ### Technical Details
 
