@@ -241,6 +241,9 @@ It stays on the server. Use OCP _secrets_ if you are on OpenShift. Don't put it 
 
 Your redirect URIs should only be resources that you control. Most of the time you will only need one URI (the one that you want the client to return to after a login event).
 
+#### Do Apply Appropriate Logout Calls
+ There is known issue with identity providers which retain session. [More info here](https://stackoverflow.developer.gov.bc.ca/questions/83)
+
 #### Do Skip the KeyCloak Login Page
 
 In KeyCloak, if the realm that contains your client has more than one IDP configured, KeyCloak shows a page that prompts the user to select which IDP they want to log in with. Almost all teams have chosen to hide this page from their users by specifying the IDP as a query string parameter in the KeyCloak Authorization URI value behind their login button. The querystring is 'kc_idp_hint'. (The IDPs available will depend on the standard realm in which your client exists.) By specifying the IDP in this way, the user will be redirected directly to the login page for the identity provider and will not see the KeyCloak login choice page at all.
