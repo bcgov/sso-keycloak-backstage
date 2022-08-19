@@ -33,3 +33,11 @@ Authentication is the process of verifying who someone is, whereas authorization
 Pathfinder SSO provides authentication only at this time. Teams will need to provide their own authorization means if they leverage the service.
 
 For further detail on the OAuth2 flow being used for clients in the standard realm, please see the [Authorization Code Flow](https://auth0.com/docs/authorization/flows/authorization-code-flow). 
+
+
+# Learn More
+The Pathfinder SSO service is build on the foundations of Keycloak /Redhat SSO.
+
+* [Request an integration](https://bcgov.github.io/sso-requests/)
+* [An overview of our CSS App](https://github.com/bcgov/sso-keycloak/wiki)
+* [Additional References](https://github.com/bcgov/sso-keycloak/wiki/Useful-References)
