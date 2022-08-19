@@ -28,6 +28,8 @@ For Red Hat SSO & Keycloak version information, please see this link: https://ac
 The following links are a good introduction or refresher to the OIDC standard.
 - [SAML2 vs JWT: Understanding OpenID Connect Part 1](https://medium.com/@robert.broeckelmann/saml2-vs-jwt-understanding-openid-connect-part-1-fffe0d50f953)
 - [SAML2 vs JWT: Understanding OpenID Connect Part 2](https://medium.com/@robert.broeckelmann/saml2-vs-jwt-understanding-openid-connect-part-2-f361ca867baa)
+## Our Discussion Section
+Q&A on Gold https://github.com/bcgov/sso-keycloak/discussions/categories/gold-q-a
 
 ## BC Government Identity Standards
 ### IM/IT Identity Standards
