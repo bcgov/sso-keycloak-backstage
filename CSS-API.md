@@ -21,17 +21,17 @@ The SSO CSS API let's you interact with CSS Application in a RESTful way for bot
 1. Under `CSS API Account` tab, you can find delete icon to delete your CSS API Account for that team
 
 ## FAQs
-### How many CSS API Accounts are permitted per team?
-- Only one CSS API Account is permitted per team
+### Q: How many CSS API Accounts are permitted per team?
+A: Only one CSS API Account is permitted per team
 
-### Can I use my CSS API Account to manage other team's integrations?
-- No, your CSS API Account is used only to manage your team's integrations
+### Q: Can I use my CSS API Account to manage other team's integrations?
+A: No, your CSS API Account is used only to manage your team's integrations
 
-### Can I use my CSS API Account to manage all my team's integrations in silver and gold clusters?
-- No, your CSS API Account is used only to manage your team's gold integrations
+### Q: Can I use my CSS API Account to manage all my team's integrations in silver and gold clusters?
+A: No, your CSS API Account is used only to manage your team's gold integrations
 
-### Do I need to delete CSS API Account before deleting a team?
-- When the team is deleted, the associated CSS API Account gets deleted automatically
+### Q: Do I need to delete CSS API Account before deleting a team?
+A: When the team is deleted, the associated CSS API Account gets deleted automatically
 
-### Do I need to create an integration before requesting CSS API Account?
-- You can request CSS API Account even if there are no integrations associated with your team 
+### Q: Do I need to create an integration before requesting CSS API Account?
+A: You can request CSS API Account even if there are no integrations associated with your team 
