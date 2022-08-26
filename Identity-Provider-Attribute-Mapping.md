@@ -5,4 +5,4 @@
 
 [Download Image](https://user-images.githubusercontent.com/56739669/182446318-783d4220-a220-4c0e-9ad4-4bafce4fc4e4.png)
 
-
+[Another way to view this from a developer perspective](https://github.com/bcgov/sso-keycloak/blob/dev/docs/migration-guide.md)
