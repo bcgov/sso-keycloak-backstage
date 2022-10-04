@@ -12,7 +12,7 @@ The SSO CSS API let's you interact with CSS Application in a RESTful way for bot
 1. CSS API is protected by OAuth2 client credentials flow, so a token is mandatory to make requests to CSS API
 1. You can acquire a bearer token using your CSS API Account credentials
 1. Add this token in the `Authorization` header in the form of `Bearer <access_token>` and make a request to the API
-1. The OpenAPI Spec of the CSS API can be accessed at `https://api.loginproxy.gov.bc.ca/openapi/swagger`
+1. The OpenAPI Spec of the CSS API can be accessed at https://api.loginproxy.gov.bc.ca/openapi/swagger
 
 ## How to delete CSS API Account:
 
