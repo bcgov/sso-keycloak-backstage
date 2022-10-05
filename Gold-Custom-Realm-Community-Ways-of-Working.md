@@ -1,4 +1,4 @@
-Welcome community member. We have this page broken down into 2 sections: Who we are and your role as a Gold Custom Community Member and Guidelines we've jointly created with you
+Welcome community member, we have this page broken down into 2 sections: Who we are and your role as a Gold Custom Community Member and Guidelines we've jointly created with you
 
 
 # Who is Who
