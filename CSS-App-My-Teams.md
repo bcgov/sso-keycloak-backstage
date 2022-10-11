@@ -1,4 +1,3 @@
-# Draft as of Oct 10
 # Overview of My Teams
 We've heard from our clients on the value of our product, the Common Hosted Single Sign On  (CSS) App and a request for a feature to allow others to have access to the integrations you create with our CSS App, so let's talk about the concept of Teams!
 
@@ -13,7 +12,7 @@ Method 2: Go to the “My Projects” tab, select “+Request SSO Integration”
 
 ### I've created a team, now what?
 
-You're an **admin**: When you create a Team, you are automatically assigned and Admin role. As an Admin, your permissions let you manage both Integrations and Teams.
+You're an **admin**: When you create a Team, you are automatically assigned an Admin role. As an Admin, your permissions let you manage both Integrations and Teams.
 
 You can add other _**team members**_: You can add others to your team with either the Admin role or Member role. The key difference is that Admins can manage teams and Members cannot.
 
