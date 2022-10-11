@@ -74,3 +74,15 @@ Only an **Admin** can create roles and once the roles are created, Admins and Me
 | Assign User to Role | **Admin** | _**Team Member**_ |
 | View Users of a specific Role | **Admin** | _**Team Member**_ |
 | Unassign User to Role | **Admin** | _**Team Member**_ |
+
+
+#### Managing Access to CSS API Account
+
+**Admins** can also create a CSS API Account for a team, which will allow you to interact with CSS Application in a RESTful way for both user and role management. Learn more about the CSS API Account in our wiki page.
+
+| Managing Access to CSS API Function | Admin Role | Team Member Role |
+| ----------- | ----------- | ----------- |
+| Create API Account| **Admin** | N/A |
+| View/Download API Account | **Admin** |  N/A |
+| Delete API Account | **Admin** | N/A |
+
