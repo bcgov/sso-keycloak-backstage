@@ -2,7 +2,7 @@
 
 
 ## Table of Contents
-- [Environments and Accounts](#environments)
+- [Environments and Accounts](#Environments-and-accounts)
   - [IDIR & GitHub Accounts](#idir-github-accounts)
   - [BCeID Accounts](#bceid-accounts)
 - [Technical Details](#technical-details)
