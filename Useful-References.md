@@ -41,5 +41,5 @@ Using Azure IDIR adds the benefit of MFA (multi-factor authentication). This is 
 
 You may have to educate your end users on MFA and please take note if your IDIR is not tied to a gov.bc.ca email address, please use idir_username@gov.bc.ca when prompted for your email. 
 
-You can **learn** [here from our IDIR Partners](https://intranet.gov.bc.ca/thehub/ocio/ocio-enterprise-services/information-security-branch/information-security-mfa/mfa-registration)
+You can **learn** [here from our IDIR Partner](https://intranet.gov.bc.ca/thehub/ocio/ocio-enterprise-services/information-security-branch/information-security-mfa/mfa-registration)
 
