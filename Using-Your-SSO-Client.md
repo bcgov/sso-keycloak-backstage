@@ -258,7 +258,7 @@ In KeyCloak, if the realm that contains your client has more than one IDP config
 
 We do have a work around for those of you who ABSOLUTELY need the keycloak login page [here](https://github.com/bcgov/sso-keycloak/wiki/Recommend-Skipping-the-Keycloak-Login-Page-and-if-you-ABSOLUTELY-need-it), please talk to us about this. 
 
-### Do Validate the IDP in the JWT
+#### Do Validate the IDP in the JWT
 
 Because there are multiple IDPs available to your client in the standard realm, if your application has business logic that specifies a particular login method, you have to enforce that. For example, if your application requires BCeID to authenticate, you have to make sure that the user didn't somehow log in with IDIR instead. Your client has a mapper configured to provide the alias of the IDP that was used to log in. The name of the claim is 'identity_provider' and the possible aliases are the same as the ones that are used for the kc_idp_hint query parameter (see above).
 
@@ -266,11 +266,11 @@ In the standard realms that support BCeID there are multiple IDPs (both BCeID an
 
 If for some reason you want to make sure that your users do NOT have a single sign-on experience, you can force them to re-authenticate according to the OIDC spec at: [3.1.2.3. Authorization Server Authenticates End-User](https://openid.net/specs/openid-connect-core-1_0.html#Authenticates).
 
-### Do revoke tokens
+#### Do revoke tokens
 
 Ensure offline tokens are revoked after use or set the maximum time.    
 
-### Do validate tokens at application level
+#### Do validate tokens at application level
 
 Validate the token at the application level rather than using an introspection endpoint
 
