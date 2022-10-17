@@ -34,3 +34,12 @@ Q&A on Gold https://github.com/bcgov/sso-keycloak/discussions/categories/gold-q-
 ## BC Government Identity Standards
 ### IM/IT Identity Standards
 - [BC Gov Identity Management Standards](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/im-it-standards/find-a-standard#id_mgt)
+
+
+## Azure IDIR and IDIR - What's the difference?
+Using Azure IDIR adds the benefit of MFA (multi-factor authentication). This is a step up security-wise from regular IDIR. 
+
+You may have to educate your end users on MFA and please take note if your IDIR is not tied to a gov.bc.ca email address, please use idir_username@gov.bc.ca when prompted for your email. 
+
+You can **learn** [here from our IDIR Partners](https://intranet.gov.bc.ca/thehub/ocio/ocio-enterprise-services/information-security-branch/information-security-mfa/mfa-registration)
+
