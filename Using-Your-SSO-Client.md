@@ -25,7 +25,7 @@
   - [Do Protect the Client Secret (Confidential Client Only)](#do-protect-the-client-secret-confidential-client-only)
   - [Do Carefully Manage Your List of Valid Redirect URIs](#do-carefully-manage-your-list-of-valid-redirect-uris)
   - [Do Skip the KeyCloak Login Page](#do-skip-the-keycloak-login-page)
-- [Do Validate the IDP in the JWT](#do-validate-the-idp-in-the-jwt)
+  - [Do Validate the IDP in the JWT](#do-validate-the-idp-in-the-jwt)
 
 ---
 ### Environments and Accounts
