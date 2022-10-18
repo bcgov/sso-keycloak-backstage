@@ -6,9 +6,16 @@ Within the CSS App, you can create a team which allows you to add others to your
 ## How do I create a team?
 
 There are two ways to create teams within the CSS app. 
+
 Method 1: Go to my “My Teams” tab, and select the “+Create a New Team” button. 
+
 Method 2: Go to the “My Projects” tab, select “+Request SSO Integration”, and select “Yes” for creating a project team.
 
+#### Relationship between Teams and Projects
+
+A team can be associated to one or more projects/integrations.
+
+<img width="200" src="https://user-images.githubusercontent.com/56739669/196549751-72050572-4c12-491d-b585-65521b11af1c.png">
 
 ### I've created a team, now what?
 
