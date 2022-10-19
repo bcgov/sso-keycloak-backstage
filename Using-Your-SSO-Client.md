@@ -2,6 +2,7 @@
 
 
 ## Table of Contents
+- [Introduction to key concepts and terms (newbie guide)](#Introduction-to-key-concepts-and-terms)
 - [Environments and Accounts](#Environments-and-accounts)
   - [IDIR & GitHub Accounts](#idir-github-accounts)
   - [BCeID Accounts](#bceid-accounts)
@@ -28,6 +29,10 @@
   - [Do Validate the IDP in the JWT](#do-validate-the-idp-in-the-jwt)
 
 ---
+### Introduction to key concepts and terms
+
+Visit our [discussions page](https://github.com/bcgov/sso-keycloak/discussions/136) to understand key concepts and terms as you make use of our Self Service application to integrate your digital application with a with BC government approved login option.
+
 ### Environments and Accounts
 
 You will have a Pathfinder SSO client in each of the DEV, TEST and PROD servers. Assuming you have a DEV, TEST, and PROD environments for your application, this should give you the decoupling you need to set up each environment up with its own login context. 
