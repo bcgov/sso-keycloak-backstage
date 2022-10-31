@@ -3,6 +3,6 @@ In CSS app, the allowed URI syntax consists of two parts with `://` in the middl
 - `scheme`: the following rules must be met:
     1. must be greater than one character.
     2. must start with an alphabet character followed by optional characters (`alphabets`, `hyphens(-)`, and `periods(.)`)
-- `path`: a minimum of one character is required except for white spaces.
+- `path`: a minimum of one character is required except for white spaces and `#`.
 - please refer to the regular expression `/^[a-zA-Z][a-zA-Z-\.]*:\/\/\S+/`
 * We made an exception to allow wildcard (*) in the dev, and test environments to satisfy the various development processes.
