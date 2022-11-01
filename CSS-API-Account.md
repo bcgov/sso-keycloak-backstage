@@ -3,7 +3,7 @@ The SSO CSS API let's you interact with CSS Application in a RESTful way for bot
 ## How to request a CSS API Account:
 
 1. Login to CSS Application and select `My Dashboard` tab
-1. Navigate to `My Teams` tab and select a team
+1. Navigate to `My Teams` tab and select a team. [More on teams here](https://github.com/bcgov/sso-keycloak/wiki/CSS-App-My-Teams)
 1. Select `CSS API Account` tab and click on `+ Request CSS API Account` to request for an API Account
 1. The request shall be approved within 20 minutes and you shall be provided with the options to `copy` or `download` your CSS API Account credentials
 
