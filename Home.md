@@ -4,6 +4,7 @@
 * [WHY PATHFINDER SSO?](https://github.com/bcgov/sso-keycloak/wiki#why-pathfinder-sso)
 * [WHY NOT PATHFINDER SSO?](https://github.com/bcgov/sso-keycloak/wiki#why-not-pathfinder-sso)
 * [WHAT'S CHANGED?](https://github.com/bcgov/sso-keycloak/wiki#whats-changed)
+* [GET STARTED](https://github.com/bcgov/sso-keycloak/wiki/SSO-Onboarding)
 
 <p align="center">
   <img width="380" height="300" src="https://user-images.githubusercontent.com/87393930/134059693-3b049537-1f5f-45e4-a31d-f6ab52b0431e.png">
@@ -35,7 +36,7 @@ It is totally possible for your application to integrate with any or all of the 
   - BCeID Basic (BC Common Logon Page) -- Allows login only with BCeID _Basic_
   - BCeID Business (BC Common Logon Page) -- Allows login only with BCeID _Business_
   - BCeID Basic & Business(BC Common Logon Page) -- Allows login with BCeID _Basic_ or BCeID _Business_
-  - GitHub _only in DEV and TEST environments at this time_
+  - GitHub associated with BC Gov Org  -- Allows login of GitHub BC Gov Org members 
 
 - **OIDC protocol.** Where certain identity providers (BCeID in particular) support SAML protocol when used directly, Pathfinder SSO brokers the SAML connection and lets you use OIDC instead. OIDC is more common and simpler to set up in modern programming stacks.
 - **Session Management.** Some identity providers don't offer advanced session management capabilities.
@@ -56,8 +57,11 @@ It is technically possible to integrate directly with the various identity provi
 As of 2021, the Pathfinder SSO service has changed it's service offering. Existing customers will not be affected, but new customers will experience a different service offering.
 
 * Previously, customers were provisioned their very own KeyCloak *realm*. A realm is like a security zone that is protected from the configuration changes made by other realms. Each team worked in their own realm and was given access to the KeyCloak administration console for their realm where they could make any changes they wanted to.
+
 * In 2020, the SSO-KEYCLOAK(formerly OCP-SSO) service started to hit maximum capacity for realms in a way that was not possible to mitigate via the usual vertical and horizontal scaling approaches. The KeyCloak product was not designed to handle an unlimited number of realms and we managed to find the limit (unfortunately!).
-* Until such time as we have another production instance of KeyCloak that can start adding new realms, new customers will now be added to one of the specially configured *standard realms*. Instead of receiving an entire realm per team, they will receive a pre-configured client inside an existing realm. There is no compromise to the security in this configuration, but it does mean that teams will no longer receive credentials to log on to the KeyCloak server and make changes to their configuration. Changes will be made by the operations team in response to requests for now (we're working on automations to solve this problem). Although this is a compromise in terms of the flexibility of the service, it actually makes setting up simpler and faster for teams.
+
+* Until such time as we have another production instance of KeyCloak that can start adding new realms, new customers will now be added to one of the specially configured *standard service*. Instead of receiving an entire realm per team, they will receive a pre-configured client inside an existing realm. There is no compromise to the security in this configuration, but it does mean that teams will no longer receive credentials to log on to the KeyCloak server and make changes to their configuration. Changes will be made by the operations team in response to requests for now (we're working on automations to solve this problem). Although this is a compromise in terms of the flexibility of the service, it actually makes setting up simpler and faster for teams.
+
 * New customers get an easy-to-set-up *authentication* component. What about *authorization*? We allow for **client level roles** to be created. [Learn more](https://github.com/bcgov/sso-keycloak/wiki/Creating-a-Role)
 
 
