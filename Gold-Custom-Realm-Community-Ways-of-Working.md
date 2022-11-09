@@ -10,43 +10,43 @@ Welcome community member, we have this page broken down into 2 sections: Who we 
 
 Our community supports us and follows our general guidelines and best practices for:
 
-* Everyone in the space understands business requirements for privacy (IDs, authorizations, personal attributes)
+1. Everyone in the space understands business requirements for privacy (IDs, authorizations, personal attributes)
 
-* For sharing purposes, need to review the STRA/security & PIA/privacy & legislation/policy for the space
+2. For sharing purposes, need to review the STRA/security & PIA/privacy & legislation/policy for the space
 
-* Rely on out of the box configuration for Keycloak integrations as much as possible
+3. Rely on out of the box configuration for Keycloak integrations as much as possible
 
-1. ensure logs not are stored or only store for a short period of time.
+&nbsp;&nbsp;&nbsp;&nbsp; a) ensure logs not are stored or only store for a short period of time.
 
-1. try to avoid using realm-level resources such as groups and roles to share the realm with multiple application teams.
+4. try to avoid using realm-level resources such as groups and roles to share the realm with multiple application teams.
 
-* Use of GUID vs KC ID
+5. Use of GUID vs KC ID
 
-1. don't use local users
+&nbsp;&nbsp;&nbsp;&nbsp; a) don't use local users
 
-* Create instructions for realm usage, setup, and basic problem solving
+6. Create instructions for realm usage, setup, and basic problem solving
 
-1. make sure the user username has a suffix with ‘@{idp}’ and is based on the source of truth of the user type.
+7. make sure the user username has a suffix with ‘@{idp}’ and is based on the source of truth of the user type.
 
-* Offline validation (public key validation)
+&nbsp;&nbsp;&nbsp;&nbsp; a) Offline validation (public key validation)
 
-* Automation
+&nbsp;&nbsp;&nbsp;&nbsp; b) Automation
 
-* Session and realm configuration and token timeouts
+8. Session and realm configuration and token timeouts
 
-1. ensure offline tokens are revoked after use or set the maximum time.   
+&nbsp;&nbsp;&nbsp;&nbsp; a) ensure offline tokens are revoked after use or set the maximum time.   
 
-1. validate the token at the application level rather than using an introspection endpoint 
+&nbsp;&nbsp;&nbsp;&nbsp; b) validate the token at the application level rather than using an introspection endpoint 
 
-* Processes for maintaining and configuring environments 
+9. Processes for maintaining and configuring environments 
 
-* Use Cypress to automate login tests
+10. Use Cypress to automate login tests
 
-* Documentation around how to get access to diff tiers of support
+11. Documentation around how to get access to diff tiers of support
 
-* Create a clear Disaster Recovery plan
+12. Create a clear Disaster Recovery plan
 
-* Synchronization of changes between environments
+13. Synchronization of changes between environments
 
 
 
