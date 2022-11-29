@@ -3,6 +3,7 @@
 
 ## Table of Contents
 - [Introduction to key concepts and terms (newbie guide)](#Introduction-to-key-concepts-and-terms)
+- [Openshift Clusters](#openshift-clusters)
 - [Environments and Accounts](#Environments-and-accounts)
   - [IDIR & GitHub Accounts](#idir-github-accounts)
   - [BCeID Accounts](#bceid-accounts)
@@ -33,6 +34,9 @@
 ### Introduction to key concepts and terms
 
 Visit our [discussions page](https://github.com/bcgov/sso-keycloak/discussions/136) to understand key concepts and terms as you make use of our Self Service application to integrate your digital application with a with BC government approved login option.
+
+### Openshift Clusters
+In mid 2022, we moved our keycloak instance from the Platform Services **Silver Openshift cluster** to their **Gold Openshift cluster**. by April 2023, all of our services will live in Gold.
 
 ### Environments and Accounts
 
