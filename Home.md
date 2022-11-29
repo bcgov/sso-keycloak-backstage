@@ -54,16 +54,19 @@ It is technically possible to integrate directly with the various identity provi
 
 ## What's Changed?
 
-As of 2021, the Pathfinder SSO service has changed it's service offering. Existing customers will not be affected, but new customers will experience a different service offering.
+As of 2022, the Pathfinder SSO service has changed it's service offering. Existing customers will not be affected, but new customers will experience a different service offering.
 
-* Previously, customers were provisioned their very own KeyCloak *realm*. A realm is like a security zone that is protected from the configuration changes made by other realms. Each team worked in their own realm and was given access to the KeyCloak administration console for their realm where they could make any changes they wanted to.
+* Previously, customers were provisioned their very own KeyCloak *realm*. A realm is like a security zone that is protected from the configuration changes made by other realms. Each team worked in their own realm and was given access to the KeyCloak administration console for their realm where they could make any changes they wanted to. We call this our "custom service".
 
 * In 2020, the SSO-KEYCLOAK(formerly OCP-SSO) service started to hit maximum capacity for realms in a way that was not possible to mitigate via the usual vertical and horizontal scaling approaches. The KeyCloak product was not designed to handle an unlimited number of realms and we managed to find the limit (unfortunately!).
 
-* Until such time as we have another production instance of KeyCloak that can start adding new realms, new customers will now be added to one of the specially configured *standard service*. Instead of receiving an entire realm per team, they will receive a pre-configured client inside an existing realm. There is no compromise to the security in this configuration, but it does mean that teams will no longer receive credentials to log on to the KeyCloak server and make changes to their configuration. Changes will be made by the operations team in response to requests for now (we're working on automations to solve this problem). Although this is a compromise in terms of the flexibility of the service, it actually makes setting up simpler and faster for teams.
+* In 2021, we offered clients the ability to integrate with our specially configured *standard service*. Instead of receiving an entire realm per team, they will receive a pre-configured client inside an existing realm. There is no compromise to the security in this configuration, but it does mean that teams will no longer receive credentials to log on to the KeyCloak server and make changes to their configuration. Changes will be made by the operations team in response to requests for now (we're working on automations to solve this problem). Although this is a compromise in terms of the flexibility of the service, it actually makes setting up simpler and faster for teams.
 
 * New customers get an easy-to-set-up *authentication* component. What about *authorization*? We allow for **client level roles** to be created. [Learn more](https://github.com/bcgov/sso-keycloak/wiki/Creating-a-Role)
 
+* In early 2022, we consulted with teams using our custom service and are working with them to migrate to our new keycloak instance. If you think you need our custom service, please be advised we will ask you a few questions as we do not take provisioning a new custom service lightly. Read more on the way we work with our [Custom Service/Custom Realm community](https://github.com/bcgov/sso-keycloak/wiki/Gold-Custom-Realm-Community-Ways-of-Working)
+
+* In mid 2022,  we moved our services from the Platform Services Silver Openshift cluster to their Gold Openshift cluster. We have mechanism in place for disaster recovery and we are an enterprise service. [Uptime Monitoring](https://github.com/bcgov/sso-keycloak/wiki/Pathfinder-Uptime-Monitoring)
 
 <!--- Prior to June 2022
 
