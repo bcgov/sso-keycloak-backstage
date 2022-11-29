@@ -70,9 +70,9 @@ As of 2021, the Pathfinder SSO service has changed it's service offering. Existi
 What about *authorization*? KeyCloak includes features that allow administrators to define roles and groups and assign users to these roles and groups. When a user logs in, their authorization context(s) come through to the application in the form of claims inside their token. The application can check the user's role and/or group membership and execute authorization-aware application logic based on the values. This feature is used by many of the existing applications supported by Pathfinder SSO (but not all of them). Because using this feature requires access to the KeyCloak administration console (or at least API) in order to administrate, it is not available to new customers that do not have their own realm (it would be a potential security breach to allow realm management in a realm shared by many applications). If you need an architectural solution for authorization, see [Handling Authorization](https://github.com/bcgov/sso-keycloak/wiki/Handling-Authorization) for useful advice. We are working on providing authorization capabilities to customers in the standard realm, but at this time any authorization features must be handled by means of a request to the operations team.
 
 
--->
-* We have removed GitHub as an IDP in the production versions of the standard realms. The IDP is still available in dedicated realms and may return to the standard realms pending security review. GitHub is still available as an IDP in the DEV and TEST versions of the service, for teams that find that useful during development cycles.
 
+* We have removed GitHub as an IDP in the production versions of the standard realms. The IDP is still available in dedicated realms and may return to the standard realms pending security review. GitHub is still available as an IDP in the DEV and TEST versions of the service, for teams that find that useful during development cycles.
+-->
 --------------------
 
 
