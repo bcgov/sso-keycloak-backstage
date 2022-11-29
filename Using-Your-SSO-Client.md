@@ -22,6 +22,8 @@
   - [A few notes on security](#a-few-notes-on-security)
   - [A note on redirect URIs](#a-note-on-redirect-uris)
   - [Advanced Settings](#advanced-settings)
+- [Setting Up your Team](#setting-up-your-team)
+  - [CSS API](#css-api)
 - [Dos and Don'ts](#dos-and-donts)
   - [Do Not Call the KeyCloak API on Every Request](#do-not-call-the-keycloak-api-on-every-request)
   - [Do Not Load Test in Production](#do-not-load-test-in-production)
@@ -115,6 +117,8 @@ Redirect URI(s) is a required field to enable `standard OpenID Connect redirect 
 
 - Wildcards (\*) are commonly used to allow `dynamical redirect URIs` and can be added at the end of a URI only, i.e. http://host.com/*
 - For local dev environment, `localhost` URIs can be used, i.e. http://localhost:3000/*
+
+To learn more about our format, [visit our redirect URI format page](https://github.com/bcgov/sso-keycloak/wiki/CSS-App-Valid-Redirect-URI-Format)
 
 ### Setting Up your Keycloak Client
 
@@ -248,6 +252,14 @@ Through the Common Hosted Single Sign On Application, with a suitable justificat
 * **Client Offline Session Max** - this setting is the max time before a client offline session is expired. Offline tokens are invalidate when a client offline session is expired. If not set, it uses the offline session max value.
 
 More information can be found [here](https://access.redhat.com/documentation/en-us/red_hat_single_sign-on/7.5/html/server_administration_guide/managing_user_sessions#timeouts)
+
+### Setting Up your team
+
+Often times, you do not want to be the only person with access to your client details or you may want to create multiple clients. If this the case, please visit [CSS App and My Teams](https://github.com/bcgov/sso-keycloak/wiki/CSS-App-My-Teams) for more info on Team Admins and Team Members
+
+#### CSS API
+
+Through our engagements with our clients, we listened to your request to have an api so your apps can connect to our CSS App. Please go to [CSS API Account](https://github.com/bcgov/sso-keycloak/wiki/CSS-API-Account) of our wiki to learn more.
 
 
 ### Dos and Don'ts
