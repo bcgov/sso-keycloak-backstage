@@ -66,7 +66,7 @@ As of 2022, the Pathfinder SSO service has changed it's service offering. Existi
 
 * In early 2022, we consulted with teams using our custom service and are working with them to migrate to our new keycloak instance. If you think you need our custom service, please be advised we will ask you a few questions as we do not take provisioning a new custom service lightly. Read more on the way we work with our [Custom Service/Custom Realm community](https://github.com/bcgov/sso-keycloak/wiki/Gold-Custom-Realm-Community-Ways-of-Working)
 
-* In mid 2022,  we moved our services from the Platform Services Silver Openshift cluster to their Gold Openshift cluster. We have mechanism in place for disaster recovery and we are an enterprise service. [Uptime Monitoring](https://github.com/bcgov/sso-keycloak/wiki/Pathfinder-Uptime-Monitoring)
+* In mid 2022,  we moved our services from the Platform Services Silver Openshift cluster to their Gold Openshift cluster. We have mechanism in place for disaster recovery and we are an enterprise service. We ensure that clients in our gold service have their service up 24/7. Learn more about [Alerts and Us] (https://github.com/bcgov/sso-keycloak/wiki/Alerts-and-Us)  and [SSO Uptime Monitoring](https://github.com/bcgov/sso-keycloak/wiki/Pathfinder-Uptime-Monitoring)
 
 <!--- Prior to June 2022
 
