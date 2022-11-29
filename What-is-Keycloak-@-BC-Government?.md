@@ -26,7 +26,10 @@ Identity providers are directories of user accounts with details about those use
 - **Azure IDIR** IDIR accounts with the added the benefit of MFA (multi-factor authentication). This is a step up security-wise from regular IDIR. [reference](https://intranet.gov.bc.ca/thehub/ocio/ocio-enterprise-services/information-security-branch/information-security-mfa/mfa-registration)
 
 - **BCeID** BCeID Accounts enable people to access government services using a single identifier and password.[reference](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/identity-and-authentication-services/bceid-authentication-service)
+
 - **BCSC (BC Services Card)**	The BC Services Card provides access to government services for B.C. residents [reference](https://www2.gov.bc.ca/gov/content/governments/government-id/bc-services-card/log-in-with-card)
+
+- **GitHub associated with BC Gov Org**	 Allows login of GitHub BC Gov Org member. At the time of writing, production approval for this requires you to obtain an exemption to the IM/IT standards. [IM/IT Standards Frequently Asked Questions](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/im-it-standards/im-it-standards-faqs) 
 
 
 # Authentication vs Authorization
