@@ -14,6 +14,7 @@
 - [Setting Up your Redirect URIs](#setting-up-your-redirect-uris)
   - [Specifying redirect uris are important](#specifying-redirect-uris-are-important)
   - [Valid Redirect URIs](#valid-redirect-uris)
+  - [Public Clients and Web Origins](#public-clients-and-web-origins)
 - [Setting Up your Keycloak Client](#setting-up-your-keycloak-client)
   - [Installation JSON](#installation-json)
   - [Connecting to Keycloak using an adapter](#connecting-to-keycloak-using-an-adapter)
@@ -119,6 +120,10 @@ Redirect URI(s) is a required field to enable `standard OpenID Connect redirect 
 - For local dev environment, `localhost` URIs can be used, i.e. http://localhost:3000/*
 
 To learn more about our format, [visit our redirect URI format page](https://github.com/bcgov/sso-keycloak/wiki/CSS-App-Valid-Redirect-URI-Format)
+
+#### Public Clients and Web Origins
+The redirect URIs will be copied over to Keycloak Web Origins setup. In addition, adding ‘+’ to permit all origins of Valid Redirect URIs
+
 
 ### Setting Up your Keycloak Client
 
