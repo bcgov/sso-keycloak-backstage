@@ -294,11 +294,16 @@ Your redirect URIs should only be resources that you control. Most of the time y
 
 In KeyCloak, if the realm that contains your client has more than one IDP configured, KeyCloak shows a page that prompts the user to select which IDP they want to log in with. Almost all teams have chosen to hide this page from their users by specifying the IDP as a query string parameter in the KeyCloak Authorization URI value behind their login button. The querystring is 'kc_idp_hint'. (The IDPs available will depend on the standard realm in which your client exists.) By specifying the IDP in this way, the user will be redirected directly to the login page for the identity provider and will not see the KeyCloak login choice page at all.
 
-- IDIR: kc_idp_hint=idir
-- BCeID Basic: kc_idp_hint=bceid-basic
-- BCeID Business: kc_idp_hint=bceid-business
-- BCeID Basic or Business: kc_idp_hint=bceid-basic-and-business
-- GitHub: kc_idp_hint=github (Available in DEV and TEST)
+| Display Name       | kc_idp_hint        | 
+| ------------- |:-------------:| 
+| IDIR           | idir |
+| Azure IDIR     | azureidir |
+| Basic BCeID    | bceidbasic |
+| Business BCeID | bceidbusiness |
+| Basic or Business BCeID      | bceidboth |
+| GitHub BC Gov           | githubbcgov |
+| GitHub Public            | githubpublic |
+
 
 We do have a work around for those of you who ABSOLUTELY need the keycloak login page [here](https://github.com/bcgov/sso-keycloak/wiki/Recommend-Skipping-the-Keycloak-Login-Page-and-if-you-ABSOLUTELY-need-it), please talk to us about this. 
 
