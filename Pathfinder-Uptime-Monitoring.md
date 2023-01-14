@@ -1,7 +1,7 @@
 # Silver Service Uptime
-* [Keycloak End User uptime aka can a keycloak user log in to the Silver Service? ](https://uptime.com/s/bcgov-sso/1056403)
-* [Keycloak Service Uptime aka is the Silver Keycloak service up?](https://uptime.com/s/bcgov-sso/1054588)
-* [Keycloak SSO Prod & IDIR Service Uptime aka can an IDIR user log into the Silver Service?](https://uptime.com/s/bcgov-sso/1050019)
+* [Keycloak End User uptime aka can a keycloak user log in to the Silver Service? ](https://uptime.com/s/bcgov-sso/1391053)
+* [Keycloak Service Uptime aka is the Silver Keycloak service up?](https://uptime.com/s/bcgov-sso/1389418)
+* [Keycloak SSO Prod & IDIR Service Uptime aka can an IDIR user log into the Silver Service?](https://uptime.com/s/bcgov-sso/1391050)
 
 
 [SILVER Full Listing of Uptime Monitoring](https://uptime.com/s/bcgov-sso)
