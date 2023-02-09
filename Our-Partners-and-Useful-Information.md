@@ -1,3 +1,20 @@
+
+
+## Navigation
+- [Azure IDIR and IDIR - What's the difference?](#Azure-IDIR-and-IDIR-What's-the-difference?)
+- [BC Service Card Integration](#BC-service-card-integration)
+- [Identity Provider Attribute Mapping](https://github.com/bcgov/sso-keycloak/wiki/Identity-Provider-Attribute-Mapping)
+- [BC Government Identity Standards aka IM/IT Identity Standards](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/im-it-standards/find-a-standard#id_mgt)
+
+
+## Azure IDIR and IDIR - What's the difference?
+Using Azure IDIR adds the benefit of MFA (multi-factor authentication). This is a step up security-wise from regular IDIR. 
+
+You may have to educate your end users on MFA and please take note if your IDIR is not tied to a gov.bc.ca email address, please use idir_username@gov.bc.ca when prompted for your email. 
+
+You can **learn** [here from our IDIR Partner](https://intranet.gov.bc.ca/thehub/ocio/ocio-enterprise-services/information-security-branch/information-security-mfa/mfa-registration)
+
+## BC Service Card Integration
 <br>
 
 *BC Services Card provides an Open ID Connect authentication server. Integration to this service is not available in the *standard* realms.*
@@ -59,3 +76,6 @@ Things are always evolving and the BC Government Open Source community is consta
 </p>
 
 ----------------------------
+#### *Have any questions? We would love to hear from you.* [![Semantic description of image](https://user-images.githubusercontent.com/87393930/133688357-09f82374-ba18-4402-8089-c0a989dde882.png)][2]   <a href="mailto:bcgov.sso@gov.bc.ca?"><img src="https://user-images.githubusercontent.com/87393930/133690650-b706e658-27bf-4066-92ba-3a7d8a4593ef.png"/></a>
+[2]: https://chat.developer.gov.bc.ca/channel/sso
+[3]: https://[mail](mailto:bcgov.sso@gov.bc.ca)[email](mailto:bcgov.sso@gov.bc.ca)
