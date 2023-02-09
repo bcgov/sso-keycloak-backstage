@@ -57,7 +57,8 @@ Here’s some reasons as to why this might work for your digital product:
 
 - **High Availability Requirements.** The Pathfinder SSO service is working to a formal published service level agreements (see [BC Government SSO Service Definition](https://developer.gov.bc.ca/BC-Government-SSO-Service-Definition)). This service is available 24/7 with questions and answers addressed during business hours only. [Uptime Monitoring](https://github.com/bcgov/sso-keycloak/wiki/Pathfinder-Uptime-Monitoring)
 
-#### More on our Standard Service via the Common Hosted Single Sign On App
+#### More on our Standard Service
+* [common hosted single sign on app](https://bcgov.github.io/sso-requests)
 * Making use of one realm, when you complete a request in our app, you receive a pre-configured client inside an existing realm. Here’s what you need to know about Keycloak 
 * If you need authorization, We allow for client level roles to be created. [Learn more](https://github.com/bcgov/sso-keycloak/wiki/Creating-a-Role)
 * [Are you Part of GitHub BC Gov Org](https://github.com/bcgov/sso-keycloak/wiki/Are-you-part-of-the-GitHub-BC-Gov-Org-%3F)
