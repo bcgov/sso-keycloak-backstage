@@ -1,3 +1,25 @@
+## Intro to terms
+
+### Authentication 
+
+Authentication is the process of verifying who someone is
+
+### Authorization
+
+Authorization is the process of verifying what specific applications, files, and data a user has access to. For further detail on the OAuth2 flow being used for clients in the standard realm, please see the [Authorization Code Flow](https://auth0.com/docs/authorization/flows/authorization-code-flow).
+
+
+### Identity Provider 
+
+An "Identity Provider" is the holder of the identity that is used to log in with. The Pathfinder SSO service is NOT an identity provider. When a user of your application logs in, they will not be providing credentials to your application directly, or even to the Pathfinder SSO service. They will be logging in directly with the identity provider. That login event is then propagated back to your application in the form of a token that proves that they have logged in correctly.
+
+### [Keycloak how we describe it](https://github.com/bcgov/sso-keycloak/wiki/What-is-Keycloak-@-BC-Government%3F#what-is-keycloak) 
+
+### Newbie Guide
+
+Visit [this page](https://github.com/bcgov/sso-keycloak/discussions/136) to understand key concepts and terms as you make use of our Self Service application to integrate your digital application with a with BC government approved login option.
+
+
 ## Learn about the Open ID connect and OAuth Protocols
 ### Readings for OAuth 2.0:
 - https://tools.ietf.org/html/rfc6749
