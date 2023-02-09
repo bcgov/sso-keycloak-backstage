@@ -9,3 +9,4 @@
 [Download Image 2](https://user-images.githubusercontent.com/56739669/200753178-ee70b80c-97cc-4dab-9ab5-f4f97b9606d1.png)
 
 [Another way to view this from a developer perspective](https://github.com/bcgov/sso-keycloak/blob/dev/docs/migration-guide.md)
+[Try our playground to see what comes in the payload with your client integration](https://bcgov.github.io/keycloak-example-apps/)
