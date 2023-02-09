@@ -41,6 +41,9 @@ Visit our [discussions page](https://github.com/bcgov/sso-keycloak/discussions/1
 ### Openshift Clusters
 In mid 2022, we moved our keycloak instance from the Platform Services **Silver Openshift cluster** to their **Gold Openshift cluster**. by April 2023, all of our services will live in Gold.
 
+As part of the [Private Cloud Platform Openshift community](https://cloud.gov.bc.ca/private-cloud/) our service sits in the Gold Cluster which enables us to ensure our service is up 24/7. [Check out our up-to-date system health](https://uptime.com/s/bcgov-sso-gold) 
+
+
 ### Environments and Accounts
 
 You will have a Pathfinder SSO client in each of the DEV, TEST and PROD servers. Assuming you have a DEV, TEST, and PROD environments for your application, this should give you the decoupling you need to set up each environment up with its own login context. 
