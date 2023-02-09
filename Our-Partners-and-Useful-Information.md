@@ -1,13 +1,13 @@
 
 
 ## Navigation
-- [Azure IDIR and IDIR - What's the difference?](#Azure-IDIR-and-IDIR-What's-the-difference?)
+- [Azure IDIR and IDIR - What's the difference?](#Azure-IDIR-and-IDIR?)
 - [BC Service Card Integration](#BC-service-card-integration)
 - [Identity Provider Attribute Mapping](https://github.com/bcgov/sso-keycloak/wiki/Identity-Provider-Attribute-Mapping)
 - [BC Government Identity Standards aka IM/IT Identity Standards](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/im-it-standards/find-a-standard#id_mgt)
 
 
-## Azure IDIR and IDIR - What's the difference?
+## Azure IDIR and IDIR?
 Using Azure IDIR adds the benefit of MFA (multi-factor authentication). This is a step up security-wise from regular IDIR. 
 
 You may have to educate your end users on MFA and please take note if your IDIR is not tied to a gov.bc.ca email address, please use idir_username@gov.bc.ca when prompted for your email. 
