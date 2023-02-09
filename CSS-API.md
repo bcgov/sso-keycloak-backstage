@@ -1,1 +1,0 @@
-moved to https://github.com/bcgov/sso-keycloak/wiki/CSS-API-Account
