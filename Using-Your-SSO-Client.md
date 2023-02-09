@@ -43,8 +43,8 @@ In mid 2022, we moved our keycloak instance from the Platform Services **Silver 
 
 As part of the [Private Cloud Platform Openshift community](https://cloud.gov.bc.ca/private-cloud/) our service sits in the Gold Cluster which enables us to ensure our service is up 24/7. [Check out our up-to-date system health](https://uptime.com/s/bcgov-sso-gold) 
 
-### Silver Current Version: 7.4.9.GA
-### Gold Current Version: 7.6 
+#### Silver Current Version: 7.4.9.GA
+#### Gold Current Version: 7.6 
 
 For Red Hat SSO & Keycloak version information, please see this link: https://access.redhat.com/articles/2342881
 
