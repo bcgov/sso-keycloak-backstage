@@ -10,7 +10,7 @@
 
 ## What are identity providers?
 
-Identity providers are directories of user accounts with details about those users, called attributes. The ones availbe to Pathfinder SSO Clients are:
+[Identity providers](https://github.com/bcgov/sso-keycloak/wiki/Useful-References#identity-provider) are directories of user accounts with details about those users, called attributes. The ones availbe to Pathfinder SSO Clients are:
 - **IDIR** IDIR accounts are given to individuals who work for the B.C. government. Each account has an IDIR username and password for logging in. [reference](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/identity-and-authentication-services/login-best-practices/language-consistency)
 
 - **Azure IDIR** IDIR accounts with the added the benefit of MFA (multi-factor authentication). This is a step up security-wise from regular IDIR. [reference](https://intranet.gov.bc.ca/thehub/ocio/ocio-enterprise-services/information-security-branch/information-security-mfa/mfa-registration)
