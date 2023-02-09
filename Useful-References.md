@@ -22,9 +22,13 @@ The following links are a good introduction or refresher to the OIDC standard.
 - [How OIDC authorization code flow works with a public client](https://www.pingidentity.com/en/company/blog/posts/2018/securely-using-oidc-authorization-code-flow-public-client-single-page-apps.html)
 
 ## Q&A with Us
+
 [Github Discussions Q&A on Gold](https://github.com/bcgov/sso-keycloak/discussions/categories/gold-q-a)
+
 [Stackover flow Collection 1](https://stackoverflow.developer.gov.bc.ca/collections/179) 
+
 [Stackover flow Collection 2](https://stackoverflow.developer.gov.bc.ca/search?q=custom+realm) 
+
 
 ## Azure IDIR and IDIR - What's the difference?
 Using Azure IDIR adds the benefit of MFA (multi-factor authentication). This is a step up security-wise from regular IDIR. 
