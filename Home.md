@@ -7,6 +7,7 @@
 * [More on our Standard Service](#more-on-our-standard-service)
 * [Limitations](#limitations)
 * [History](#history)
+* [For Additional Help](https://github.com/bcgov/sso-keycloak/wiki/Additional-Help)
 * [Placeholder on Custom Realms](#placeholder-on-custom-realms)
 
 <p align="center">
