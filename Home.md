@@ -58,7 +58,13 @@ Here’s some reasons as to why this might work for your digital product:
 - **High Availability Requirements.** The Pathfinder SSO service is working to a formal published service level agreements (see [BC Government SSO Service Definition](https://developer.gov.bc.ca/BC-Government-SSO-Service-Definition)). This service is available 24/7 with questions and answers addressed during business hours only. [Uptime Monitoring](https://github.com/bcgov/sso-keycloak/wiki/Pathfinder-Uptime-Monitoring)
 
 #### More on our Standard Service via the Common Hosted Single Sign On App
-
+* Making use of one realm, when you complete a request in our app, you receive a pre-configured client inside an existing realm. Here’s what you need to know about Keycloak 
+* If you need authorization, We allow for client level roles to be created. [Learn more](https://github.com/bcgov/sso-keycloak/wiki/Creating-a-Role)
+* [Are you Part of GitHub BC Gov Org](https://github.com/bcgov/sso-keycloak/wiki/Are-you-part-of-the-GitHub-BC-Gov-Org-%3F)
+* [CSS Account API]https://github.com/bcgov/sso-keycloak/wiki/CSS-API-Account
+* [CSS APP my Teams](https://github.com/bcgov/sso-keycloak/wiki/CSS-App-My-Teams)
+* [CSS APP valid redirect URI Format](https://github.com/bcgov/sso-keycloak/wiki/CSS-App-Valid-Redirect-URI-Format)
+* [Gold Migration Q&A](https://github.com/bcgov/sso-keycloak/discussions/categories/gold-q-a)
 
 ### Limitations
 It is technically possible to integrate directly with the various identity providers instead of using SSO-KEYCLOAK(formerly OCP-SSO). Architectural reasons for direct integration include:
@@ -70,7 +76,7 @@ It is technically possible to integrate directly with the various identity provi
 
 
 ## Placeholder on Custom Realms 
-•	[https://github.com/bcgov/sso-keycloak/wiki/Understanding-the-Difference-Between-Custom-and-Standard-Realms](Gold Custom Community way of working)
+•	(https://github.com/bcgov/sso-keycloak/wiki/Understanding-the-Difference-Between-Custom-and-Standard-Realms)[Gold Custom Community way of working]
 
 
 ## History
