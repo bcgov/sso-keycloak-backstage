@@ -1,7 +1,7 @@
 
 
 ## Navigation
-- [Azure IDIR and IDIR - What's the difference?](#Azure-IDIR-and-IDIR?)
+- [Azure IDIR and IDIR - What's the difference?](#Azure-IDIR-and-IDIR)
 - [BC Service Card Integration](#BC-service-card-integration)
 - [Identity Provider Attribute Mapping](https://github.com/bcgov/sso-keycloak/wiki/Identity-Provider-Attribute-Mapping)
 - [BC Government Identity Standards aka IM/IT Identity Standards](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/im-it-standards/find-a-standard#id_mgt)
