@@ -78,7 +78,7 @@ It is technically possible to integrate directly with the various identity provi
 
 
 ## Placeholder on Custom Realms 
-•	(https://github.com/bcgov/sso-keycloak/wiki/Understanding-the-Difference-Between-Custom-and-Standard-Realms)[Gold Custom Community way of working]
+[Custom Realm ](https://github.com/bcgov/sso-keycloak/wiki/Understanding-the-Difference-Between-Custom-and-Standard-Realms)
 
 
 ## History
