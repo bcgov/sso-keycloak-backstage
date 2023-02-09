@@ -1,11 +1,4 @@
-## What's the difference between Silver and Gold
-
-Silver and Gold are the name of the openshift clusters our service lives in. 
-
-### Silver Current Version: 7.4.9.GA
-### Gold Current Version: 7.5 
-
-For Red Hat SSO & Keycloak version information, please see this link: https://access.redhat.com/articles/2342881
+## [What's the difference between Silver and Gold](https://github.com/bcgov/sso-keycloak/wiki/Using-Your-SSO-Client#openshift-clusters)
 
 ## Reading on OIDC, Keycloak and APIs
 ### How to set up and use your KeyCloak Client
