@@ -35,9 +35,11 @@ Over the years, we’ve engaged and learned that the majority of our clients can
 
 ## Our Partners
 
-We provide our service with the support of our Identity Provider Partners. An "Identity Provider" is the holder of the identity that is used to log in with. Learn more about our Partners here. Note: It is totally possible for your application to integrate with any or all of the identity providers directly instead of using the Pathfinder SSO service.
+We provide our service with the support of our Identity Provider Partners. An "Identity Provider" is the holder of the identity that is used to log in with. [Learn more about our partners and relevant identity provider information](https://github.com/bcgov/sso-keycloak/wiki/Our-Partners-and-Useful-Information).
 
-[Learn more about our partners and relevant identity provider information](https://github.com/bcgov/sso-keycloak/wiki/Our-Partners-and-Useful-Information)
+Note: It is totally possible for your application to integrate with any or all of the identity providers directly instead of using the Pathfinder SSO service.
+
+
 
 
 
