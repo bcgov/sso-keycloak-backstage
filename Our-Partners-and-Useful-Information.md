@@ -1,10 +1,25 @@
 
 
 ## Navigation
+- [What are identity providers, and which are available to BC Government?](#What-are-identity-providers)
 - [Azure IDIR and IDIR - What's the difference?](#Azure-IDIR-and-IDIR)
 - [BC Service Card Integration](#BC-service-card-integration)
 - [Identity Provider Attribute Mapping](https://github.com/bcgov/sso-keycloak/wiki/Identity-Provider-Attribute-Mapping)
 - [BC Government Identity Standards aka IM/IT Identity Standards](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/im-it-standards/find-a-standard#id_mgt)
+
+
+## What are identity providers?
+
+Identity providers are directories of user accounts with details about those users, called attributes. The ones availbe to Pathfinder SSO Clients are:
+- **IDIR** IDIR accounts are given to individuals who work for the B.C. government. Each account has an IDIR username and password for logging in. [reference](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/identity-and-authentication-services/login-best-practices/language-consistency)
+
+- **Azure IDIR** IDIR accounts with the added the benefit of MFA (multi-factor authentication). This is a step up security-wise from regular IDIR. [reference](https://intranet.gov.bc.ca/thehub/ocio/ocio-enterprise-services/information-security-branch/information-security-mfa/mfa-registration)
+
+- **BCeID** BCeID Accounts enable people to access government services using a single identifier and password.[reference](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/identity-and-authentication-services/bceid-authentication-service)
+
+- **BCSC (BC Services Card)**	The BC Services Card provides access to government services for B.C. residents [reference](https://www2.gov.bc.ca/gov/content/governments/government-id/bc-services-card/log-in-with-card)
+
+- **GitHub associated with BC Gov Org**	 Allows login of GitHub BC Gov Org member. At the time of writing, production approval for this requires you to obtain an exemption to the IM/IT standards. [IM/IT Standards Frequently Asked Questions](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/im-it-standards/im-it-standards-faqs) 
 
 
 ## Azure IDIR and IDIR?
