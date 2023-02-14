@@ -31,7 +31,7 @@
 
 The Pathfinder SSO service (also known as "KeyCloak" or "RedHat SSO") consists of two offerings: Standard and Custom. 
 
-Over the years, we’ve engaged and learned that the majority of our clients can make use of our standard service, so we created the  [Common hosted Single Sign on (CSS) App](https://bcgov.github.io/sso-requests/). It’s a simple way for application development teams to set up login functionality for their app from approved [identity providers](https://github.com/bcgov/sso-keycloak/wiki/Useful-References#identity-provider) over a standard, secure protocol aka to help you obtain the technical details for your login component. Learn more about [onboarding with us here](https://github.com/bcgov/sso-keycloak/wiki/SSO-Onboarding).
+Over the years, we’ve engaged and learned that the majority of our clients can make use of our standard service, so we created the  [Common hosted Single Sign on (CSS) App](https://bcgov.github.io/sso-requests/). It’s a simple way for application development teams to set up login functionality for their app from approved [identity providers](https://github.com/bcgov/sso-keycloak/wiki/Useful-References#identity-provider) over a standard and secure protocol aka to help you obtain the technical details for your login component. Learn more about [onboarding with us here](https://github.com/bcgov/sso-keycloak/wiki/SSO-Onboarding).
 
 
 ## Our Partners
@@ -58,11 +58,11 @@ Here’s some reasons as to why this might work for your digital product:
 - **OIDC protocol.** Where certain identity providers (BCeID in particular) support SAML protocol when used directly, Pathfinder SSO brokers the SAML connection and lets you use OIDC instead. OIDC is more common and simpler to set up in modern programming stacks.
 - **Session Management.** Some identity providers don't offer advanced session management capabilities.
 
-- **High Availability Requirements.** The Pathfinder SSO service is working to a formal published service level agreements (see [BC Government SSO Service Definition](https://developer.gov.bc.ca/BC-Government-SSO-Service-Definition)). This service is available 24/7 with questions and answers addressed during business hours only. [Uptime Monitoring](https://github.com/bcgov/sso-keycloak/wiki/Pathfinder-Uptime-Monitoring)
+- **High Availability Requirements.** The Pathfinder SSO service is working on a formal published service level agreements (see [BC Government SSO Service Definition](https://developer.gov.bc.ca/BC-Government-SSO-Service-Definition)). This service is available 24/7 with questions and answers addressed during business hours only. [Uptime Monitoring](https://github.com/bcgov/sso-keycloak/wiki/Pathfinder-Uptime-Monitoring)
 
 #### More on our Standard Service
 
-Our standard service makes use of one "standard" real. When you complete a request in our [common hosted single sign on app](https://bcgov.github.io/sso-requests), you receive a pre-configured client inside an existing realm. 
+Our standard service makes use of one "standard" realm. When you complete a request in our [common hosted single sign on app](https://bcgov.github.io/sso-requests), you receive a pre-configured client inside an existing realm. 
 
 * If you need authorization, We allow for client level roles to be created. [Learn more](https://github.com/bcgov/sso-keycloak/wiki/Creating-a-Role)
 * [Are you Part of GitHub BC Gov Org](https://github.com/bcgov/sso-keycloak/wiki/Are-you-part-of-the-GitHub-BC-Gov-Org-%3F)
