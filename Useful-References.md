@@ -2,8 +2,8 @@
 * [Learn about the Open ID connect and OAuth Protocols](#Learn-about-the-Open-ID-connect-and-OAuth-Protocols)
 * [Learn about Keycloak and its APIs](#Learn-about-Keycloak-and-its-APIs)
 * [How to set up and use your KeyCloak Client](#How-to-set-up-and-use-your-KeyCloak-Client)
-* [Q&A with Us](#Q\&A-with-Us)
-* [Azure IDIR and IDIR - What's the difference?](#Azure-IDIR-and-IDIR-What's-the-difference)
+* [Q&A with Us](#qa-with-us)
+* [Azure IDIR and IDIR - What's the difference?](#azure-idir-and-idir---whats-the-difference)
 
 
 ## Intro to terms
