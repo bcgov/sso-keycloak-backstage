@@ -46,7 +46,7 @@ As part of the [Private Cloud Platform Openshift community](https://cloud.gov.bc
 
 #### Redhat SSO Version
 
-Gold Current Version: 7.6 
+Gold Current Version:  7.6.1.GA
 
 Silver Current Version: 7.4.9.GA
 
