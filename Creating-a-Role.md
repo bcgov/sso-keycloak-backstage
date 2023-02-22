@@ -26,3 +26,6 @@ You've asked and we've listened, our latest **MVP** has the ability for you to c
 
 ( * ) we've got it in our backlog to configure team admins to handle role management( create/delete roles) and team members to handle user assignment (add/remove users to roles)
 
+
+## Service Account Role Management
+TBD
