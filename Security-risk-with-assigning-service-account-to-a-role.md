@@ -1,1 +1,0 @@
-# Assigning service accounts to a role
