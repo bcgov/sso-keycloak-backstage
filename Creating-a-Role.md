@@ -31,7 +31,7 @@ You've asked and we've listened, we've created the ability for you to create rol
 
 Some client teams require roles to be created for their service accounts. Examples include accessing the client API with a service account to grant permission on different end points. 
 
-We've heard from clients the need to create roles on service accounts and as a community member in our SHARED/STANDARD service, please keep in mind, that other teams may use the same role names as you. For this reason and for good security posture, your API end point checks should look at the `aud`. **Audience check is required if you have an API for your application and you have a standard integration. **
+We've heard from clients the need to create roles on service accounts and as a community member in our SHARED/STANDARD service, please keep in mind, that other teams may use the same role names as you. For this reason and for good security posture, your API end point checks should look at the `aud`. **Audience check is required if you have an API for your application and you have a standard integration.**
 
 
 From the wisest of our team member "One final note which is paramount; securing your API endpoints. If you're using the standard realm then you'll have to use a combination of roles (created in CSS), issuer & audience (as well as the public key) to confirm the token is indeed valid for your API. Otherwise, other teams in the same realm would have the ability to make the same call" 
