@@ -29,7 +29,7 @@ You've asked and we've listened, we've created the ability for you to create rol
 
 ## Service Account Role Management
 
-Some client teams require roles to be created for their service accounts. Examples include accessing the client API with a service account to grant permission on different end points. 
+Some client teams require roles to be created for their service accounts. Examples include granting  permissions to service accounts to access different endpoints of client API
 
 We've heard from clients the need to create roles on service accounts and as a community member in our SHARED/STANDARD service, please keep in mind, that other teams may use the same role names as you. For this reason and for good security posture, your API end point checks should look at the `aud`. **Audience check is required if you have an API for your application and you have a standard integration.**
 
