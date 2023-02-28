@@ -12,8 +12,8 @@ Pathfinder Team commits to acknowledging issue within 15 -20 mins and resolving 
 #### 2022
 | Month      | Number of Alerts | Acknowledge Time | Resolve Time    | Notes |
 | :---        |     :----:   |   :----:   |          ---: |---: |
-| June      |  19 | 2m 44s       | 15m 40s  |   |
-| July   | 38 | 3m 9s        | 9m 43s      |  |
+| June      |  25 | 3m 43s       | 4m 10s  |   |
+| July   | 2| 8m 17s      | 9m 44ss      |  |
 | August   | 6 | 11m 37s        | 8h 45 m  |  _siteminder/network issue [Aug 5](https://chat.developer.gov.bc.ca/channel/sso?msg=FpfxtgJN9BEfMaenC)_  Aug 17 tbd |
 | September   | 19 | 9m 22s        | 30m 5s      | Sept 7, [sept 12](https://chat.developer.gov.bc.ca/channel/sso?msg=YpwwatnNGnTRc7q3J), [Sept 25](https://chat.developer.gov.bc.ca/channel/sso?msg=hWAzCD7GMM7Wyy2q7) |
 | October | 4 | 12m 31s        | 16m 37s      | oct 5, Oct 12 Oct 23 Oct 27|
@@ -34,7 +34,7 @@ Pathfinder Team commits to acknowledging issue within 15 -30 mins and resolving 
 #### 2022
 | Month      | Number of Alerts | Acknowledge Time | Response Time    |
 | :---        |     :----:   |   :----:   |          ---: |
-| June      |  30| 7m 32s       | 27m 23ss  |
+| June      |  30 | 7m 32s       | 27m 23ss  |
 | July   | 2 |10m 55s   | 10m 58s      |
 | August   | 3 | 6m 5s       | 6m 34s      |
 | Oct   |  | |    |
@@ -50,6 +50,14 @@ Pathfinder Team commits to acknowledging issue within 15 -30 mins and resolving 
 | February      |  15  | 13m 12s       | 15m 41s 0  |
 
 
-
+#### 2022
+| Month      | Number of Alerts | Acknowledge Time | Response Time    |
+| :---        |     :----:   |   :----:   |          ---: |
+| June      |  27 | 14m 9s       | 15m 50s  |
+| July   | 2 |10m 55s   | 10m 58s      |
+| August   | 3 | 6m 5s       | 6m 34s      |
+| Oct   |  | |    |
+| Nov   |  | |    |
+| Dec   | 2 | 9m 8s|  20m 59s  |
 
 
