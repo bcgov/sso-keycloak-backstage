@@ -34,9 +34,12 @@ Pathfinder Team commits to acknowledging issue within 15 -30 mins and resolving 
 #### 2022
 | Month      | Number of Alerts | Acknowledge Time | Response Time    |
 | :---        |     :----:   |   :----:   |          ---: |
-| June      |  29 | 7m 38s       | 30m 57s  |
-| July   | 47 | 6m 27s       | 21m 6s      |
-
+| June      |  30| 7m 32s       | 27m 23ss  |
+| July   | 2 |10m 55s   | 10m 58s      |
+| August   | 3 | 6m 5s       | 6m 34s      |
+| Oct   |  | |    |
+| Nov   |  | |    |
+| Dec   | 2 | 9m 8s|  20m 59s  |
 
 ## Priority 4 aka Low Impact to Service -- 
 Pathfinder Team commits to acknowledging issue within 15 -30 mins and resolving as quickly as possible
