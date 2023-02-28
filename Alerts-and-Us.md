@@ -37,6 +37,7 @@ Pathfinder Team commits to acknowledging issue within 15 -30 mins and resolving 
 | June      |  30 | 7m 32s       | 27m 23ss  |
 | July   | 2 |10m 55s   | 10m 58s      |
 | August   | 3 | 6m 5s       | 6m 34s      |
+| sept | 4 |3m 15s | 1 h 18m 46s | |
 | Oct   |  | |    |
 | Nov   |  | |    |
 | Dec   | 2 | 9m 8s|  20m 59s  |
@@ -56,6 +57,7 @@ Pathfinder Team commits to acknowledging issue within 15 -30 mins and resolving 
 | June      |  27 | 14m 9s       | 15m 50s  |
 | July   | 2 |10m 55s   | 10m 58s      |
 | August   | 3 | 6m 5s       | 6m 34s      |
+| sept | 7|2m 2s | 2m 13s | |
 | Oct   | 4 | 1m 18s | 1m 18s   |
 | Nov   | 5  | 22m 35s | 36m 9s   |
 | Dec   | 14 | 2m 29s |  2m 49s  |
