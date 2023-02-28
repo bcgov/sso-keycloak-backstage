@@ -6,8 +6,8 @@ Pathfinder Team commits to acknowledging issue within 15 -20 mins and resolving 
 #### 2023
 | Month      | Number of Alerts | Acknowledge Time | Resolve Time    | Notes |
 | :---        |     :----:   |   :----:   |          ---: |---: |
-| January      |  26 | 8m 36s       | 42m 40s  |  Jan 25 & Jan 24 - OCP Upgrade |
-| February      |  23 | 10m 59s       | 12m 44s  | Feb 4 & Feb 6  |
+| January      |  6 | 2min 11s       | 45m 26s  |  Jan 25 & Jan 24 - OCP Upgrade |
+| February      |  0 | 0       | 0| 0  |
 
 #### 2022
 | Month      | Number of Alerts | Acknowledge Time | Resolve Time    | Notes |
@@ -24,13 +24,27 @@ Pathfinder Team commits to acknowledging issue within 15 -20 mins and resolving 
 Pathfinder Team commits to acknowledging issue within 15 -30 mins and resolving as quickly as possible
 ### # P3 Stats
 
+
+#### 2023
+| Month      | Number of Alerts | Acknowledge Time | Resolve Time    | Notes |
+| :---        |     :----:   |   :----:   |          ---: |---: |
+| January      |  3 | 12 min52s      | 14m 19s  |  Jan 25 & Jan 24 - OCP Upgrade |
+| February      |  8  | 6m 51s      | 7m 41s | 0  |
+
+#### 2022
 | Month      | Number of Alerts | Acknowledge Time | Response Time    |
 | :---        |     :----:   |   :----:   |          ---: |
 | June      |  29 | 7m 38s       | 30m 57s  |
 | July   | 47 | 6m 27s       | 21m 6s      |
+
+
 ## Priority 4 aka Low Impact to Service -- 
 Pathfinder Team commits to acknowledging issue within 15 -30 mins and resolving as quickly as possible
-
+#### 2023
+| Month      | Number of Alerts | Acknowledge Time | Resolve Time    | Notes |
+| :---        |     :----:   |   :----:   |          ---: |---: |
+| January      |  17 | 9min 56s    | 46m 15s  |  Jan 25 & Jan 24 - OCP Upgrade |
+| February      |  15  | 13m 12s       | 15m 41s 0  |
 
 
 
