@@ -63,7 +63,7 @@ Here's a table to show the difference between what a Team Admin and a Team Membe
 | Assign Team Members | **Admin** | N/A  |
 | Unassign Team Members | **Admin** | N/A  |
 
-#### Managing an Roles associated to Integration
+#### Managing a Role associated to Integration
 
 When creating an integration, some teams may want to create roles associated to the integration. More on roles here https://github.com/bcgov/sso-keycloak/wiki/Creating-a-Role
 
