@@ -64,7 +64,7 @@ Here’s some reasons as to why this might work for your digital product:
 
 Our standard service makes use of one "standard" realm. When you complete a request in our [common hosted single sign on app](https://bcgov.github.io/sso-requests), you receive a pre-configured client inside an existing realm. 
 
-* If you need authorization, We allow for client level roles to be created. [Learn more](https://github.com/bcgov/sso-keycloak/wiki/Creating-a-Role)
+* If you need authorization ie role based access controls, we allow for client level roles to be created. [Learn more](https://github.com/bcgov/sso-keycloak/wiki/Creating-a-Role)
 * [Are you Part of GitHub BC Gov Org](https://github.com/bcgov/sso-keycloak/wiki/Are-you-part-of-the-GitHub-BC-Gov-Org-%3F)
 * [CSS Account API](https://github.com/bcgov/sso-keycloak/wiki/CSS-API-Account)
 * [CSS APP my Teams](https://github.com/bcgov/sso-keycloak/wiki/CSS-App-My-Teams)
