@@ -1,5 +1,7 @@
 # SSO Pathfinder Knowledge Base 
->If you are intending to use the Pathfinder SSO service in order to provide authentication for your application, the SSO Pathfinder Knowledge Base is for you. You are in the right place. Get started now for your self serve experience to our [common hosted single sign on app](https://bcgov.github.io/sso-requests)
+>If you are intending to use the Pathfinder SSO service in order to provide authentication for your application, the SSO Pathfinder Knowledge Base is for you. You are in the right place. 
+
+**>Get started now for your self serve experience to our [common hosted single sign on app](https://bcgov.github.io/sso-requests)**
 
 * [Standard Service](#standard-service)
 * [Our Partners](#our-partners)
