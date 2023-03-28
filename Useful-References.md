@@ -21,6 +21,8 @@ Authorization is the process of verifying what specific applications, files, and
 
 An "Identity Provider" is the holder of the identity that is used to log in with. The Pathfinder SSO service is NOT an identity provider. When a user of your application logs in, they will not be providing credentials to your application directly, or even to the Pathfinder SSO service. They will be logging in directly with the identity provider. That login event is then propagated back to your application in the form of a token that proves that they have logged in correctly.
 
+[Visit this FAQ](https://github.com/bcgov/sso-keycloak/discussions/256) on which Identity Provider might be best for you
+
 ### [Keycloak how we describe it](https://github.com/bcgov/sso-keycloak/wiki/What-is-Keycloak-@-BC-Government%3F#what-is-keycloak) 
 
 ### Newbie Guide
