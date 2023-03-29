@@ -12,8 +12,9 @@ Use the [Common hosted Single Sign on
 
 (*) Note for BCeID Requests
 The Pathfinder SSO team will provision your DEV and TEST clients right away. You will be provided the client name and secret for each environment via a secure channel. The PROD client will be provisioned upon approval from the IDIM team.
+
 (*) Note for Azure IDIR Requests
-Please note the provisioning process is the same as IDIR.
+Please note the provisioning process is the same as IDIR. 
 
 
 ## Start Using your OIDC Client Configuration
