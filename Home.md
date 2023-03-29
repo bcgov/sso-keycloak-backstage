@@ -51,7 +51,8 @@ Note: It is totally possible for your application to integrate with any or all o
 Here’s some reasons as to why this might work for your digital product:
 
 - **Easy setup.** We've made this the #1 feature of this service. You can get your DEV, TEST, and PROD instances running against most of the available identity providers right away. The Pathfinder SSO service already has integrations to the following identity providers: 
-  - IDIR (BC Common Logon Page)
+  - IDIR (BC Common Logon Page) 
+      - [Learn about Azure IDIR ](https://github.com/bcgov/sso-keycloak/wiki/Useful-References#azure-idir-and-idir---whats-the-difference)
   - BCeID Basic (BC Common Logon Page) -- Allows login only with BCeID _Basic_
   - BCeID Business (BC Common Logon Page) -- Allows login only with BCeID _Business_
   - BCeID Basic & Business(BC Common Logon Page) -- Allows login with BCeID _Basic_ or BCeID _Business_
