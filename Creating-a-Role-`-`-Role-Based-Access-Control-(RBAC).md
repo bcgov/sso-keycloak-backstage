@@ -1,4 +1,6 @@
 
+***
+
 You've asked and we've listened, we've created the ability for you to create roles for your SSO integration.
 
 [View a quick video of how to create Roles](https://user-images.githubusercontent.com/56739669/167518486-89f03e3c-f7e4-4788-89d8-25729e107406.mp4), or continue reading the instructions below.
@@ -35,3 +37,7 @@ We've heard from clients the need to create roles on service accounts and as a c
 
 
 From the wisest of our team member "One final note which is paramount; securing your API endpoints. If you're using the standard realm then you'll have to use a combination of roles (created in CSS), issuer & audience (as well as the public key) to confirm the token is indeed valid for your API. Otherwise, other teams in the same realm would have the ability to make the same call" 
+
+***
+
+***
