@@ -22,7 +22,7 @@ You've asked and we've listened, we've created the ability for you to create rol
 1. When you select a role, the right hand side will show users assigned to that role
 1. By deleting a role, you are also removing the role from the users assigned to the role....it’s on our backlog to allow to delete one user at a time
 1. Any Team Member within your integration can create OR delete roles * 
-1. Any Team Member within your integration can see all users assigned to role * 
+1. Any Team Member within your integration can see all users assigned to role
 
 ( * ) we've got it in our backlog to configure team admins to handle role management( create/delete roles) and team members to handle user assignment (add/remove users to roles)
 
