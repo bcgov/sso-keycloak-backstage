@@ -148,7 +148,7 @@ Once your request has been completed, you will be able to download your installa
 ```json
 {
   "realm": "<standard_realm_name>",
-  "auth-server-url": "https://<env>.oidc.gov.bc.ca/auth/",
+  "auth-server-url": "https://<env>.loginproxy.gov.bc.ca/auth/",
   "ssl-required": "external",
   "resource": "<client_id>",
   "credentials": {
@@ -163,7 +163,7 @@ Once your request has been completed, you will be able to download your installa
 ```json
 {
   "realm": "<standard_realm_name>",
-  "auth-server-url": "https://<env>.oidc.gov.bc.ca/auth/",
+  "auth-server-url": "https://<env>.loginproxy.gov.bc.ca/auth/",
   "ssl-required": "external",
   "resource": "<client_id>",
   "public-client": true,
