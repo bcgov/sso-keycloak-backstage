@@ -30,7 +30,7 @@ Pathfinder Team commits to acknowledging issue within 15 -30 mins and resolving 
 | Month      | Number of Alerts | Acknowledge Time | Resolve Time    | Notes |
 | :---        |     :----:   |   :----:   |          ---: |---: |
 | January      |  3 | 12 min52s      | 14m 19s  |  Jan 25 & Jan 24 - OCP Upgrade |
-| February      |  8  | 6m 51s      | 7m 41s | 0  |
+| February      |  8  | 6m 51s      | 7m 41s | 0  | Feb 2 & Feb 13 kc upgrade; Feb 4 pvc/db size in dev; Feb 6 pods cycling?
 | March      |  0  | 0      | 0 | 0  |
 
 #### 2022
