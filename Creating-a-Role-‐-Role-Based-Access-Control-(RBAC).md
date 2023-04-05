@@ -3,6 +3,16 @@
 
 You've asked and we've listened, we've created the ability for you to create roles for your SSO integration.
 
+### What and Why are roles in the Common Hosted Single Sign On (CSS) App?
+
+Roles identify a type or category of user. Admin, user, manager, and employee are all typical roles that may exist in an organization. Applications often assign access and permissions to specific roles rather than individual users as dealing with users can be too fine-grained and hard to manage.
+
+
+The CSS App provides the ability to add roles to an integration. This concept is also known as Role-based access control (RBAC), a mechanism that restricts system access.
+
+
+### How to create a Role:
+
 [View a quick video of how to create Roles](https://user-images.githubusercontent.com/56739669/167518486-89f03e3c-f7e4-4788-89d8-25729e107406.mp4), or continue reading the instructions below.
 
 ### How to create a Role:
