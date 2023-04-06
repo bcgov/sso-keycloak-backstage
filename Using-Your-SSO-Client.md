@@ -122,7 +122,7 @@ For an example of a custom PKCE implementation, see [here](https://github.com/bc
 
 It is important to register redirect URIs as specifically as possible to prevents _bad guys_ from accessing your client and obtaining your users' information.
 
-- Please see [here](https://www.keycloak.org/docs/latest/server_admin/index.html#_unspecific-redirect-uris) for more detail.
+- Please see [here](https://www.keycloak.org/docs/latest/server_admin/index.html#unspecific-redirect-uris_server_administration_guide) for more detail.
 
 #### Valid Redirect URIs
 
@@ -232,7 +232,7 @@ It gives you `OpenID Provider Metadata` required for the OpenID connect configra
 - You can find the `client_id` and `client_secret` from the `Installation JSON` downloaded through the request process.
 - Please see
   [here](https://www.keycloak.org/docs/latest/securing_apps/index.html#endpoints) for a full list of endpoints and their descriptions.
-- Please see [here](https://www.keycloak.org/docs/latest/securing_apps/index.html#endpoints) for a other OpenID Connect Libraries.
+- Please see [here](https://www.keycloak.org/docs/latest/securing_apps/index.html#other-openid-connect-libraries) for a other OpenID Connect Libraries.
 
 #### Specifying an IDP to bypass the Keycloak login page
 
