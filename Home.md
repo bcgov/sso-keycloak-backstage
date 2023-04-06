@@ -12,9 +12,14 @@
 * [For Additional Help](https://github.com/bcgov/sso-keycloak/wiki/Additional-Help)
 * [Placeholder on Custom Realms](#placeholder-on-custom-realms)
 
-<p align="center">
+<!-- <p align="center">
   <img width="380" height="300" src="https://user-images.githubusercontent.com/87393930/134059693-3b049537-1f5f-45e4-a31d-f6ab52b0431e.png">
 </p>
+-->
+ <p align="center">
+  <img width="380" height="300" src="https://user-images.githubusercontent.com/56739669/230499918-0a0f9454-0bb9-4e32-9582-0b47d435b45c.PNG">
+</p>
+
 
 <br>
 
