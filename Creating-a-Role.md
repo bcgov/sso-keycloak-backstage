@@ -12,7 +12,7 @@ The CSS App provides the ability to add roles to an integration. This concept is
 
 ### Why use roles? 
 
-You can use roles to enable access to specific pages or data to only those users who connect. (maybe this should be reworked)
+You can use roles to enable access to specific pages or data to only those users who connect, with efficiency, data security and simplicity under consideration.
 
 ### Limitations
 
