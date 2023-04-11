@@ -16,7 +16,7 @@ You can use roles to enable access to specific pages or data to only those users
 
 ### Limitations
 
-Cannot define fine grained access
+Cannot define fine grained access.
 
 ### How to create a Role:
 
