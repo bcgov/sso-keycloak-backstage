@@ -15,7 +15,7 @@ Method 2: Go to the “My Projects” tab, select “+Request SSO Integration”
 
 A team can be associated to one or more projects/integrations.
 
-<img width="200" src="https://user-images.githubusercontent.com/56739669/196549751-72050572-4c12-491d-b585-65521b11af1c.png">
+<img width="400" src="https://user-images.githubusercontent.com/56739669/231294189-a9b0ca94-f0da-4a8e-b077-4b082d978533.png">
 
 ### I've created a team, now what?
 
