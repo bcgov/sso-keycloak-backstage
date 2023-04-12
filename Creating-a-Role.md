@@ -16,10 +16,15 @@ You can use roles to enable access to specific pages or data to only those users
 
 
 
+
+
+
 ### How to create a Role:
 
-[View a quick video of how to create Roles](https://user-images.githubusercontent.com/56739669/167518486-89f03e3c-f7e4-4788-89d8-25729e107406.mp4), or continue reading the instructions below.
+[View a quick video of how to create Roles](https://user-images.githubusercontent.com/56739669/231529538-0e1efa5a-51df-401a-99c2-dbc964e8cac6.mp4), or continue reading the instructions below.
 
+
+<!-- old video https://user-images.githubusercontent.com/56739669/167518486-89f03e3c-f7e4-4788-89d8-25729e107406.mp4 -->
 ### How to create a Role:
 1. First, create your integration
 1. Once your integration status becomes “Completed”, you can “Create a New Role” for each of your environments, under Role Management
