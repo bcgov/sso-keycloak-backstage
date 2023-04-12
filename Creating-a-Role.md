@@ -35,7 +35,7 @@ You can use roles to enable access to specific pages or data to only those users
 1. Once your integration is in "completed" status, you will have your json details AND you have created at least one Role
 1. Make sure you assign at least one person to this role under the "Assign Users to Role" section
 1. Log in to your Application
-1. Look for the Role you created in the client_roles attribute  View this [video at 2:00](https://user-images.githubusercontent.com/56739669/167518486-89f03e3c-f7e4-4788-89d8-25729e107406.mp4)
+1. Look for the Role you created in the client_roles attribute  View this [video at 1:35](https://user-images.githubusercontent.com/56739669/231529538-0e1efa5a-51df-401a-99c2-dbc964e8cac6.mp4)
 
 
 ### A couple of notes:
