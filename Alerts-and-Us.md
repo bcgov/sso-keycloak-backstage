@@ -71,7 +71,7 @@ The team responds to all service incidents through our 24/7 process where our te
 > P4 - Low - respond within 45 mins
 > 
 
-As a very responsive team, you will see our metrics over the years and that we respond  very quickly [2022 and 2023 Recap of Alerts/Incidents](https://github.com/bcgov/sso-keycloak/wiki/Alerts-and-Us)
+As a very responsive team, you will see our metrics over the years and that we respond  very quickly [2022 and 2023 Recap of Alerts/Incidents](https://github.com/bcgov/sso-keycloak/wiki/Alerts-and-Us#metrics)
 
 It should be noted that our current version of Redhat SSO does not enable us to offer zero downtime aka [blue green deployments](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/blue-green-deployments.html). As a result, when we need to upgrade our Redhat SSO version or need to apply a patch, we advise our clients in advance via [RocketChat](https://chat.developer.gov.bc.ca/channel/sso) with a note that active sessions may be lost ie: end users may have to login again.
 
