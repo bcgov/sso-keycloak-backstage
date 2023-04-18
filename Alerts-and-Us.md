@@ -1,5 +1,110 @@
-Here's an overview of our metrics on our acknowledge and response times:
+Here's an overview of our Service Levels and Metrics on our acknowledge and response times:
+# Service Levels
+We often get questions about our Service Level Agreement and over the years we've come to realize the answer is not that simple. This an attempt to plain language the our Service Levels, other systems that impact our SLA as we are a subset of a larger system, our approach to keeping systems stable and reliable, and our future thinking.
 
+### What is our Service
+Our service, the Pathfinder SSO ensures that our Keycloak server acts as an Open ID Connect [OIDC](https://openid.net/connect/) based Identity Provider, mediating with an enterprise user directory or 3rd-party SSO providers for identity information and applications via standards-based tokens and identity assertions.
+
+Specifically, we make use of the Red Hat SSO v 7.6.1.GA
+
+**Other systems we rely on** 
+
+The Pathfinder SSO service is hosted on the Private Cloud Openshift platform in the government data centers in Kamloops and Calgary (DR). There are planned and unplanned outages that impact the infrastructure that our service is hosted in and thus impact the availability of the service.
+
+**Private Cloud Platform as a Service (Platform Services)**
+
+We are a subset of a larger ecosystem of services within BC Government. Our Keycloak server sits on the [BCGov Private Cloud Platform as a Service aka Openshift](https://cloud.gov.bc.ca/private-cloud).
+Planned outages on the Openshift platform have minimal impact on our end user uptime due to the Switchover/GoldDR process (15-30 minutes at most). 
+
+The current availability commitments for the Gold/Gold DR Openshift service is 99.95%.
+
+Reference: [Private Cloud Memorandum of Understanding](https://cloud.gov.bc.ca/private-cloud/our-services-in-private-cloud-paas/memorandum-of-understanding-for-private-cloud-paas/) and [Private Cloud Hosting Tiers](https://cloud.gov.bc.ca/private-cloud/our-products-in-the-private-cloud-paas/silver-and-gold-tier-platforms/)
+
+**BC Government Kamloops and Calgary Data Centers**
+
+It should be noted together with the Private Cloud/Platform Services Team we are reliant on the service levels agreed upon by the
+Province an the Kamloops/Calgary Data Centers. The unplanned outage to the Data Centers are out of our control and impact our Service Level Target. 
+
+The current availability commitments for the Data Centers are 99.5%.
+
+
+**Identity Partners**
+
+We have a healthy relationship with our Access Directory Management Services (ADMS/WAM) team and the Provincial Identity Information Management (IDIM) team who are the identity providers for IDIR and BCeID. Any unplanned outages or impact to these identity services are out of our control and impact our Service Level Target.
+
+
+
+** Our Service Level Target 2023**
+
+Working as DevOps Agile team maintaining high system availability and reliability is paramount to our Service Levels.
+
+We aim to keep our Service available 99.95% noting that some months we may be 99.9% due to linked systems and their outages beyond our control.
+
+This is SLA is is based on the highest SLA for the services we rely on.
+
+**What does 99.99, 99.95 vs 99.9 mean?**
+
+99.99 translates to 4  min of downtime/outage mode a month
+99.95 translates to  21 min of downtime/outage mode a month
+99.9 translates to 40 min of downtime/outage mode a month
+
+**Service Level Defined**
+As of writing (April 2023) we define our service levels as:
+
+•	Our service is available 24/7, except during planned outages within the Kamloops and Calgary data centres. Planned outages are communicated through [RocketChat](https://chat.developer.gov.bc.ca/channel/sso) 
+
+•	Our regular business hours are weekdays from 9:00 am to 5:00 pm Pacific Time, excluding statutory holidays. Client provisioning questions and requests will be reviewed and handled during normal business hours.  After hours support is provided by the Pathfinder SSO team, and is only available for service outages and other incidents that impact the service
+
+•	To learn more about our service uptime monitoring, please [visit our uptime page on our wiki](https://github.com/bcgov/sso-keycloak/wiki/Pathfinder-Uptime-Monitoring) .
+
+
+**Our approach to stability and reliability (Support Incident Response Times)**
+
+The Pathfinder SSO Team responds to 3 levels or incidents: P1 - Critical, P3 - Moderate and P4 - Low.
+
+The team responds to all service incidents through our 24/7 process where our team is alerted of the incident. Our target response times are:
+
+> P1 - Critical - respond within 20mins
+> 
+> P3 - Moderate - respond within 30 mins
+> 
+> P4 - Low - respond within 45 mins
+> 
+
+As a very responsive team, you will see our metrics over the years and that we respond  very quickly [2022 and 2023 Recap of Alerts/Incidents](https://github.com/bcgov/sso-keycloak/wiki/Alerts-and-Us)
+
+It should be noted that our current version of Redhat SSO does not enable us to offer zero downtime aka [blue green deployments](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/blue-green-deployments.html). As a result, when we need to upgrade our Redhat SSO version or need to apply a patch, we advise our clients in advance via [RocketChat](https://chat.developer.gov.bc.ca/channel/sso) with a note that active sessions may be lost ie: end users may have to login again.
+
+
+**Change Communications**
+
+When a change occurs on our service, we will provide notification in advance in these ways: 
+
+**Minor changes** are announced 24 hours in advance in the [Rocket.Chat #sso channel.](https://chat.developer.gov.bc.ca/channel/sso) An example of a minor change is tied to small bug fixes or other low-impact changes.
+
+**Emergency change**s are announced as soon as possible in advance in the [Rocket.Chat #sso channel.](https://chat.developer.gov.bc.ca/channel/sso)  channel. An emergency change is performed to recover a failed service, prevent a failure or address a security vulnerability. 
+
+**Medium/Major changes** are announced five (5) business days in advance in the [Rocket.Chat #sso channel.](https://chat.developer.gov.bc.ca/channel/sso)  channel. An example of a medium change is an upgrade to the keycloak version number, with limited impacts.
+
+
+**Uptime**
+
+We do make use of uptime monitoring to help report out on our service levels. We monitor 3 things with uptime:
+1.	Is our service up?
+2.	Can any user get in?
+3.	Can a user affiliated with an identity provider ie IDIR user get in?
+[See more details](https://uptime.com/statuspage/bcgov-sso-gold)
+
+
+
+**Future Thinking**
+As a [DevOps Agile team](https://aws.amazon.com/devops/what-is-devops/) , we want to minimize the downtime our clients have. Our current focus is to complete our Openshift Silver Keycloak migration to Openshift Gold Keycloak and then we hope to have cycles to innovate and pursue zero down time (eventually move to [ROSA](https://aws.amazon.com/rosa/) or maybe when Redhat SSO is linked with [Keycloak Quarkus](https://www.keycloak.org/downloads).
+Join our monthly open demos as we share where we are going.
+
+
+
+
+# Metrics
 ## Priority 1 aka Critical Impact to Service -- no end users can log into their apps connected to keycloak
 Pathfinder Team commits to acknowledging issue within 15 -20 mins and resolving as quickly as possible
 ### # P1 Stats
