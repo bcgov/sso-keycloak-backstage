@@ -45,7 +45,9 @@ This is SLA is is based on the highest SLA for the services we rely on.
 **What does 99.99, 99.95 vs 99.9 mean?**
 
 99.99 translates to 4  min of downtime/outage mode a month
+
 99.95 translates to  21 min of downtime/outage mode a month
+
 99.9 translates to 40 min of downtime/outage mode a month
 
 **Service Level Defined**
