@@ -16,6 +16,9 @@ The Pathfinder SSO team will provision your DEV and TEST clients right away. You
 (*) Note for Azure IDIR Requests
 Please note the provisioning process is the same as IDIR. 
 
+### Need to host your application in BCGov Private Cloud Paas
+
+Please visit [BCGov Private Cloud Platform as a Service](https://cloud.gov.bc.ca/private-cloud)
 
 ## Start Using your OIDC Client Configuration
 
