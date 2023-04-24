@@ -98,6 +98,7 @@ We do make use of uptime monitoring to help report out on our service levels. We
 [See more details](https://uptime.com/statuspage/bcgov-sso-gold)
 
 **Cost**
+
 There is no cost for the BC Gov's Pathfinder SSO service for B.C. government ministries, central agencies, and Crown corporations in the 2023/2024 fiscal year.  There may be a cost model introduced in the following fiscal years. To receive updates, sign up for the [sso newsletter](https://subscribe.developer.gov.bc.ca/).
 
 **Future Thinking**
