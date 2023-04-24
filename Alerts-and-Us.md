@@ -57,7 +57,7 @@ As of writing (April 2023) we define our service levels as:
 
 •	Our regular business hours are weekdays from 9:00 am to 5:00 pm Pacific Time, excluding statutory holidays. Client provisioning questions and requests will be reviewed and handled during normal business hours.  After hours support is provided by the Pathfinder SSO team, and is only available for service outages and other incidents that impact the service
 
-•	To learn more about our service uptime monitoring, please [visit our uptime page on our wiki](https://github.com/bcgov/sso-keycloak/wiki/Pathfinder-Uptime-Monitoring) .
+•	To learn more about our service uptime monitoring, please [visit our uptime page on our wiki](https://github.com/bcgov/sso-keycloak/wiki/Pathfinder-Uptime-Monitoring) and join our [newsletter](https://subscribe.developer.gov.bc.ca/) to receive important updates on the service and any outages.
 
 
 **Our approach to stability and reliability (Support Incident Response Times)**
@@ -97,7 +97,8 @@ We do make use of uptime monitoring to help report out on our service levels. We
 3.	Can a user affiliated with an identity provider ie IDIR user get in?
 [See more details](https://uptime.com/statuspage/bcgov-sso-gold)
 
-
+**Cost**
+There is no cost for the BC Gov's Pathfinder SSO service for B.C. government ministries, central agencies, and Crown corporations in the 2023/2024 fiscal year.  There may be a cost model introduced in the following fiscal years. To receive updates, sign up for the [sso newsletter](https://subscribe.developer.gov.bc.ca/).
 
 **Future Thinking**
 As a [DevOps Agile team](https://aws.amazon.com/devops/what-is-devops/) , we want to minimize the downtime our clients have. Our current focus is to complete our Openshift Silver Keycloak migration to Openshift Gold Keycloak and then we hope to have cycles to innovate and pursue zero down time (eventually move to [ROSA](https://aws.amazon.com/rosa/) or maybe when Redhat SSO is linked with [Keycloak Quarkus](https://www.keycloak.org/downloads).
