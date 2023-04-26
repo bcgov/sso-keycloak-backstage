@@ -29,6 +29,11 @@ You may have to educate your end users on MFA and please take note if your IDIR 
 
 You can **learn** [here from our IDIR Partner](https://intranet.gov.bc.ca/thehub/ocio/ocio-enterprise-services/information-security-branch/information-security-mfa/mfa-registration)
 
+Also note if you get an error message similar to the one below, please ensure the end user has an BC Gov Azure IDIR account in order to gain access.
+ <img width="380" height="300" src="https://user-images.githubusercontent.com/56739669/234470765-f3250a0a-7a62-4c42-b532-682351c0e103.png">
+
+
+
 ## BC Service Card Integration
 <br>
 
