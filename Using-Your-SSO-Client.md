@@ -12,6 +12,7 @@
   - [OIDC Setup and Keycloak's Authentication Flow](#oidc-setup-and-keycloaks-authentication-flow)
   - [Confidential vs Private Client](#confidential-vs-private-client)
   - [Using PKCE](#using-pkce)
+  - [Select a Usecase](#usecases)
 - [Setting Up your Redirect URIs](#setting-up-your-redirect-uris)
   - [Specifying redirect uris are important](#specifying-redirect-uris-are-important)
   - [Valid Redirect URIs](#valid-redirect-uris)
@@ -115,6 +116,12 @@ If not using the adapter, you can use a custom implementation. This will require
 4. When exchanging the received code for an access token, send the initial `code_verifier` to ensure your application initiated the current exchange.
 
 For an example of a custom PKCE implementation, see [here](https://github.com/bcgov/sso-requests/blob/dev/app/utils/openid.ts#L20) for generating the authentication URL and [here](https://github.com/bcgov/sso-requests/blob/dev/app/utils/openid.ts#L49) for exchanging the received code for an access token.
+
+#### Usecases 
+
+Service Account - A service account is a digital identity used by an application software or service to interact with other applications or the operating system. They are often used for machine to machine communication (M2M), for example for application programming interfaces (API).
+
+
 
 ### Setting Up your Redirect URIs
 
