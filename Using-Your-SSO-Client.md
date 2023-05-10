@@ -6,7 +6,7 @@
 - [Openshift Clusters](#openshift-clusters)
   - [RedHat SSO Version](#redhat-sso-version)
 - [Environments and Accounts](#Environments-and-accounts)
-  - [IDIR & GitHub Accounts](#idir-github-accounts)
+  - [IDIR & GitHub Accounts](https://github.com/bcgov/sso-keycloak/wiki/Using-Your-SSO-Client#idir--github-accounts)
   - [BCeID Accounts](#bceid-accounts)
 - [Technical Details](#technical-details)
   - [OIDC Setup and Keycloak's Authentication Flow](#oidc-setup-and-keycloaks-authentication-flow)
