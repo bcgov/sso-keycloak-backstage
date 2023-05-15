@@ -118,6 +118,7 @@ Pathfinder Team commits to acknowledging issue within 15 -20 mins and resolving 
 | January      |  6 | 2min 11s       | 45m 26s  |  Jan 25 & Jan 24 - OCP Upgrade |
 | February      |  0 | 0       | 0| 0  |
 | March      |  16 | 1m 10s      | 5m24| March 2& 3  intermittent idir issues March 6 tied to sm vendor guidance. March 18 tied to platform services work|
+| April      |  7 | 2m22s       | 6m48s| 0  | April 4 uptime time out issue. April 5 Prod fixes by us. April 11 uptime Global script execution timeout
 
 #### 2022
 | Month      | Number of Alerts | Acknowledge Time | Resolve Time    | Notes |
@@ -141,6 +142,7 @@ Pathfinder Team commits to acknowledging issue within 15 -30 mins and resolving 
 | January      |  3 | 12 min52s      | 14m 19s  |  Jan 25 & Jan 24 - OCP Upgrade |
 | February      |  8  | 6m 51s      | 7m 41s | Feb 2 & Feb 13 kc upgrade; Feb 4 pvc/db size in dev; Feb 6 pods cycling? |
 | March      |  0  | 0      | 0 | 0  |
+| April      |  0  | 0      | 0 | 0  |
 
 #### 2022
 | Month      | Number of Alerts | Acknowledge Time | Response Time    |
@@ -161,6 +163,7 @@ Pathfinder Team commits to acknowledging issue within 15 -30 mins and resolving 
 | January      |  17 | 9min 56s    | 46m 15s  |  Jan 25 & Jan 24 - OCP Upgrade |
 | February      |  15  | 13m 12s       | 15m 41s 0  |
 | March      |  5  | 12m 53s       | 16m 48s  | siteminder in dev and test; db pvc over 90%; Gold cpu usage med
+| April      |  13 | 2m53s      | 7m49s | April 5 Prod fixes by us. April 11 uptime Global script execution timeout  |
 
 #### 2022
 | Month      | Number of Alerts | Acknowledge Time | Response Time    |
