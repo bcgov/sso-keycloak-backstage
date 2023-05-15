@@ -118,7 +118,7 @@ Pathfinder Team commits to acknowledging issue within 15 -20 mins and resolving 
 | January      |  6 | 2min 11s       | 45m 26s  |  Jan 25 & Jan 24 - OCP Upgrade |
 | February      |  0 | 0       | 0| 0  |
 | March      |  16 | 1m 10s      | 5m24| March 2& 3  intermittent idir issues March 6 tied to sm vendor guidance. March 18 tied to platform services work|
-| April      |  7 | 2m22s       | 6m48s| 0  | April 4 uptime time out issue. April 5 Prod fixes by us. April 11 uptime Global script execution timeout
+| April      |  7 | 2m22s       | 6m48s| 0  | April 4 uptime time out issue. April 5 Prod fixes by us. April 11 uptime Global script execution timeout |
 
 #### 2022
 | Month      | Number of Alerts | Acknowledge Time | Resolve Time    | Notes |
