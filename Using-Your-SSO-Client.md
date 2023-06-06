@@ -206,12 +206,12 @@ It gives you `OpenID Provider Metadata` required for the OpenID connect configra
 
 ```json
 {
-  "issuer": "https://<env>.oidc.gov.bc.ca/auth/realms/<realm_name>", // Issuer URL
-  "authorization_endpoint": "https://<env>.oidc.gov.bc.ca/auth/realms/<realm_name>/protocol/openid-connect/auth", // Authorization URL
-  "token_endpoint": "https://<env>.oidc.gov.bc.ca/auth/realms/<realm_name>/protocol/openid-connect/token", // Token URL
-  "userinfo_endpoint": "https://<env>.oidc.gov.bc.ca/auth/realms/<realm_name>/protocol/openid-connect/userinfo", // User Info UR
-  "end_session_endpoint": "https://<env>.oidc.gov.bc.ca/auth/realms/<realm_name>/protocol/openid-connect/logout", // Logout URL
-  "jwks_uri": "https://<env>.oidc.gov.bc.ca/auth/realms/<realm_name>/protocol/openid-connect/certs", // JSON Web Key Set URL
+  "issuer": "https://<env>.loginproxy.gov.bc.ca/auth/realms/<realm_name>", // Issuer URL
+  "authorization_endpoint": "https://<env>.loginproxy.gov.bc.ca/auth/realms/<realm_name>/protocol/openid-connect/auth", // Authorization URL
+  "token_endpoint": "https://<env>.loginproxy.gov.bc.ca/auth/realms/<realm_name>/protocol/openid-connect/token", // Token URL
+  "userinfo_endpoint": "https://<env>.loginproxy.gov.bc.ca/auth/realms/<realm_name>/protocol/openid-connect/userinfo", // User Info UR
+  "end_session_endpoint": "https://<env>.loginproxy.gov.bc.ca/auth/realms/<realm_name>/protocol/openid-connect/logout", // Logout URL
+  "jwks_uri": "https://<env>.loginproxy.gov.bc.ca/auth/realms/<realm_name>/protocol/openid-connect/certs", // JSON Web Key Set URL
   ...
 }
 ```
