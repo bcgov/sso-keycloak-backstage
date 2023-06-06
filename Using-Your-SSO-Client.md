@@ -40,7 +40,7 @@
 Visit our [discussions page](https://github.com/bcgov/sso-keycloak/discussions/136) to understand key concepts and terms as you make use of our Self Service application to integrate your digital application with a with BC government approved login option.
 
 ### Openshift Clusters
-In mid 2022, we moved our keycloak instance from the Platform Services **Silver Openshift cluster** to their **Gold Openshift cluster**. by April 2023, all of our services will live in Gold.
+In mid 2022, we moved our keycloak instance from the Platform Services **Silver Openshift cluster** to their **Gold Openshift cluster**. As of June 15, 2023, all of our services will live in Gold.
 
 As part of the [Private Cloud Platform Openshift community](https://cloud.gov.bc.ca/private-cloud/) our service sits in the Gold Cluster which enables us to ensure our service is up 24/7. [Check out our up-to-date system health](https://uptime.com/s/bcgov-sso-gold) 
 
@@ -48,7 +48,7 @@ As part of the [Private Cloud Platform Openshift community](https://cloud.gov.bc
 
 Gold Current Version:  7.6.1.GA
 
-Silver Current Version: 7.4.9.GA
+decommissioned - Silver Current Version: 7.4.9.GA
 
 
 For Red Hat SSO & Keycloak version information, please see this link: https://access.redhat.com/articles/2342881
@@ -63,13 +63,6 @@ You will have a Pathfinder SSO client in each of the DEV, TEST and PROD servers.
 For IDIR and GitHub, your users will use "real" credentials in all three environments. 
 
 ##### BCeID Accounts
-**With our SILVER Service** - please ensure you have BCeID accounts mapped to the correct BCeID environment listed below. For questions on test accounts, please reach out to our IDIM partners at idim.consulting@gov.bc.ca or visit [BC Gov Stack Overflow](https://stackoverflow.developer.gov.bc.ca/questions/704)
-
-| SSO CSS APP SILVER        | BCeID Env           | Visual Clue          |
-| ------------- |:-------------:| :-----: |
-| DEV     | BCeID TEST | ![image](https://user-images.githubusercontent.com/56739669/182436317-68624f41-3889-4127-9440-20d7ec09da48.png) |
-| TEST      | BCeID TEST       |   ![image](https://user-images.githubusercontent.com/56739669/182436317-68624f41-3889-4127-9440-20d7ec09da48.png) |
-| PROD | BCeID PROD      |    ![image](https://user-images.githubusercontent.com/56739669/182436489-5e66b419-d3ad-4f33-b38b-92b6db6dd467.png) |
 
 
 **With our GOLD Service** - please ensure you have BCeID accounts mapped to the correct BCeID environment listed below. For questions on test accounts, please reach out to our IDIM partners at idim.consulting@gov.bc.ca or visit [BC Gov Stack Overflow](https://stackoverflow.developer.gov.bc.ca/questions/704)
@@ -197,22 +190,8 @@ After having your `Installation JSON`, you can setup your application quickly us
 If you are not using an adapter, you will require some additional information to set up your OpenID connection. Required information
 can be found behind the publicly accessible `provider configuration endpoint` for your environment. 
 
-Based on our integration with us, you will either have your integration connected to our Silver (soon to be deprecated) offering or our Gold (the place to be) offering. Reach out to us if you have questions.
+Based on our integration with us, you will either have your integration connected to our Gold Standard offering. Reach out to us if you have questions.
 
-##### Silver Service
-
-These are:
-
-- **Dev**: https://dev.oidc.gov.bc.ca/auth/realms/< realm_name >/.well-known/openid-configuration
-- **Test**: https://test.oidc.gov.bc.ca/auth/realms/< realm_name >/.well-known/openid-configuration
-- **Prod**: https://oidc.gov.bc.ca/auth/realms/< realm_name >/.well-known/openid-configuration
-
-Where < realm_name > needs to be replaced with the standard realm you are using, one of:
-
-- onestopauth (For IDIR only)
-- onestopauth-basic (For IDIR and BCeID basic)
-- onestopauth-business (For IDIR and BCeID business)
-- onestopauth-both (For IDIR and BCeID basic and business)
 
 ##### Gold Service
 
