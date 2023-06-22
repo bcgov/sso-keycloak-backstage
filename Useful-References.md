@@ -1,4 +1,6 @@
 * [Intro to terms](#Intro-to-terms)
+* [How we describe Keycloak](#keycloak-how-we-describe-it)
+* [Newbie Guide: Concepts and Terms](#newbie-guide)
 * [Learn about the Open ID connect and OAuth Protocols](#Learn-about-the-Open-ID-connect-and-OAuth-Protocols)
 * [Learn about Keycloak and its APIs](#Learn-about-Keycloak-and-its-APIs)
 * [How to set up and use your KeyCloak Client](#How-to-set-up-and-use-your-KeyCloak-Client)
