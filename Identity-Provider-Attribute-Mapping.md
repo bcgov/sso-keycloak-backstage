@@ -1,13 +1,11 @@
-<img width="1224" alt="IDP mappers_ Oct26" src="https://user-images.githubusercontent.com/56739669/198112312-d860960b-283c-4f52-b0bb-2911ac0d04fb.png" >
+<img width="1224" alt="IDP mappers_ June2023" src="https://user-images.githubusercontent.com/56739669/248904590-78a7f83f-aed1-47eb-a5c3-a7dfc815eace.png" >
 
-<img width="1224" alt="GitHub_IDP_Mappers_-_Nov_8" src="https://user-images.githubusercontent.com/56739669/200753178-ee70b80c-97cc-4dab-9ab5-f4f97b9606d1.png" >
+<img width="1224" alt="GitHub_IDP_Mappers _ June2023" src="https://user-images.githubusercontent.com/56739669/248904606-af43720e-7264-40cb-9844-a651bf6ca213.png" >
 
 
 * Any other attribute can be fetched by the app itself using [IDIM Web Services](https://sminfo.gov.bc.ca/)
 
-## with Silver
-[Download Image 1](https://user-images.githubusercontent.com/56739669/198112312-d860960b-283c-4f52-b0bb-2911ac0d04fb.png)
-[Download Image 2](https://user-images.githubusercontent.com/56739669/200753178-ee70b80c-97cc-4dab-9ab5-f4f97b9606d1.png)
+
 
 [Another way to view this from a developer perspective](https://github.com/bcgov/sso-keycloak/blob/dev/docs/migration-guide.md)
 
