@@ -7,4 +7,4 @@
 
 [Full Listing of Uptime Monitoring](https://uptime.com/s/bcgov-sso-gold)
 
-[Our Service Level](https://github.com/bcgov/sso-keycloak/wiki/Alerts-and-Us)
+[Our Service Level](https://github.com/bcgov/sso-keycloak/wiki/Alerts-and-Us#service-levels)
