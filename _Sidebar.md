@@ -9,7 +9,7 @@
 - [Handling Authorization/Create a Role](https://github.com/bcgov/sso-keycloak/wiki/Creating-a-Role)
 - [Useful References](https://github.com/bcgov/sso-keycloak/wiki/Useful-References)
 - [Pathfinder SSO Uptime](https://github.com/bcgov/sso-keycloak/wiki/Pathfinder-Uptime-Monitoring)
-- [Our Service Level](https://github.com/bcgov/sso-keycloak/wiki/Alerts-and-Us)
+- [Our Service Level](https://github.com/bcgov/sso-keycloak/wiki/Alerts-and-Us#service-levels)
 - [Gold Migration Q&A](https://github.com/bcgov/sso-keycloak/discussions/categories/gold-q-a)
 
 # Request links
