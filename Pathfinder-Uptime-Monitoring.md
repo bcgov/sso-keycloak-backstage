@@ -5,4 +5,6 @@
 * [Keycloak SSO Prod & IDIR Service Uptime aka can an IDIR user log into the Gold Service?](https://uptime.com/s/bcgov-sso-gold/1391029)
 
 
-[GOLD Full Listing of Uptime Monitoring](https://uptime.com/s/bcgov-sso-gold)
+[Full Listing of Uptime Monitoring](https://uptime.com/s/bcgov-sso-gold)
+
+[Our Service Level](https://github.com/bcgov/sso-keycloak/wiki/Alerts-and-Us)
