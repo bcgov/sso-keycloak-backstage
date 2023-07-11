@@ -120,6 +120,7 @@ Pathfinder Team commits to acknowledging issue within 15 -20 mins and resolving 
 | March      |  16 | 1m 10s      | 5m24| March 2& 3  intermittent idir issues March 6 tied to sm vendor guidance. March 18 tied to platform services work|
 | April      |  7 | 2m22s       | 6m48s| April 4 uptime time out issue. April 5 Prod fixes by us. April 11 uptime Global script execution timeout |
 | May      |  21 | 6m08s       | 20m57s| May 24 CPU surge that may have been caused by logging, May 28 STMS work triggered timeouts |
+| June     |  1 | 0m01s       | 0m01s| June 12: CPU spike over 5, not outage, Gold Upgrade Day |
 
 #### 2022
 | Month      | Number of Alerts | Acknowledge Time | Resolve Time    | Notes |
