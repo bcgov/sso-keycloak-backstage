@@ -146,6 +146,7 @@ Pathfinder Team commits to acknowledging issue within 15 -30 mins and resolving 
 | March      |  0  | 0      | 0 | 0  |
 | April      |  0  | 0      | 0 | 0  |
 | May      |  3  | 3m14      | 3m14 | related to silver openshift upgrade  |
+| June     |  3  | 2m26      | 2m55 | 1 silver alert, gold upgrade on June 12 |
 
 #### 2022
 | Month      | Number of Alerts | Acknowledge Time | Response Time    |
@@ -167,7 +168,8 @@ Pathfinder Team commits to acknowledging issue within 15 -30 mins and resolving 
 | February      |  15  | 13m 12s       | 15m 41s 0  |
 | March      |  5  | 12m 53s       | 16m 48s  | siteminder in dev and test; db pvc over 90%; Gold cpu usage med
 | April      |  13 | 2m53s      | 7m49s | April 5 Prod fixes by us. April 11 uptime Global script execution timeout  |
-| May      |  23 | 7m41s      | 29m11s | May 24 CPU surge, May 28 STMS work, May 30 PVC warning  |
+| May       |  23 | 7m41s      | 29m11s | May 24 CPU surge, May 28 STMS work, May 30 PVC warning  |
+| June      |  5 | 2m09s      | 2m36s | June 12 gold upgrade  |
 
 #### 2022
 | Month      | Number of Alerts | Acknowledge Time | Response Time    |
