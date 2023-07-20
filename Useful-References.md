@@ -59,9 +59,9 @@ The following links are a good introduction or refresher to the OIDC standard.
 
 [Github Discussions Q&A on Gold](https://github.com/bcgov/sso-keycloak/discussions/categories/gold-q-a)
 
-[Stackover flow Collection 1](https://stackoverflow.developer.gov.bc.ca/collections/179) 
+[Stackover flow Collection 1 on Keycloak/RedHat SSO](https://stackoverflow.developer.gov.bc.ca/collections/179) 
 
-[Stackover flow Collection 2](https://stackoverflow.developer.gov.bc.ca/search?q=custom+realm) 
+[Stackover flow Collection 2 on Custom Realms](https://stackoverflow.developer.gov.bc.ca/search?q=custom+realm) 
 
 
 
