@@ -1,3 +1,6 @@
+
+As of July 2023 this is archived information that will be ressurected once our gold custom realm registry is created. 
+
 # Step 0
 Are you the product owner or project admin/team lead?
 
