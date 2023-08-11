@@ -6,8 +6,8 @@
 ## DNS Checks 
 If one these DNS checks fails while the other uptime checks pass for an environment, then the app may be running in Disaster Recovery mode.
 * [Dev DNS Check aka DNS Dev Passes if dev.loginproxy.gov.bc.ca points to the Gold Cluster ](https://uptime.com/statuspage/bcgov-sso-gold/1719406)
-* [Test DNS Check aka DNS Dev Passes if test.loginproxy.gov.bc.ca points to the Gold Cluster ](https://uptime.com/statuspage/bcgov-sso-gold/1719409)
-* [Prod DNS Check aka DNS Dev Passes if loginproxy.gov.bc.ca points to the Gold Cluster ](https://uptime.com/statuspage/bcgov-sso-gold/1581586)
+* [Test DNS Check aka DNS Test Passes if test.loginproxy.gov.bc.ca points to the Gold Cluster ](https://uptime.com/statuspage/bcgov-sso-gold/1719409)
+* [Prod DNS Check aka DNS Prod Passes if loginproxy.gov.bc.ca points to the Gold Cluster ](https://uptime.com/statuspage/bcgov-sso-gold/1581586)
 
 [Full Listing of Uptime Monitoring](https://uptime.com/s/bcgov-sso-gold)
 
