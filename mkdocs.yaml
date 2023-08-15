@@ -2,7 +2,7 @@ site_name: "SSO Pathfinder Wiki"
 site_description: "BC Gov Custom SSO Wiki"
 repo_url: https://github.com/bcgov/sso-keycloak-backstage
 edit_uri: edit/main/docs/
-docs_dir: 
+docs_dir: ""
 
 plugins:
   - techdocs-core
