@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "sso-pathfinder-wiki"
+  name: "sso-keycloak-backstage"
   description: "SSO Pathfinder Wiki"
   annotations:
     github.com/project-slug: bcgov/sso-keycloak-backstage
