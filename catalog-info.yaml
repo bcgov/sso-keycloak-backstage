@@ -5,7 +5,6 @@ metadata:
   description: "SSO Pathfinder Wiki"
   annotations:
     github.com/project-slug: bcgov/sso-keycloak-backstage
-    backstage.io/techdocs-ref: ./
 spec:
   type: documentation
   lifecycle: experimental
